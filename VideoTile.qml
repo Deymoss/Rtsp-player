@@ -3,10 +3,12 @@ import QtQuick.Controls 1.1
 import QtQuick.Controls.Styles 1.3
 import QtQuick.Dialogs 1.2
 import QtQuick.Window 2.1
+import ACME.VideoItem 1.0
 
 import org.freedesktop.gstreamer.GLVideoItem 1.0
 
-Item {
+VideoItem {
+    id: root
     anchors.fill: parent
 
     GstGLVideoItem {
@@ -17,34 +19,56 @@ Item {
         height: parent.height
     }
 
-    Rectangle {
-        color: Qt.rgba(1, 1, 1, 0.7)
-        border.width: 1
-        border.color: "white"
-        anchors.bottom: video.bottom
-        anchors.bottomMargin: 15
-        anchors.horizontalCenter: parent.horizontalCenter
-        width : parent.width - 30
-        height: parent.height - 30
-        radius: 8
+        Button {
+            id: closeButton
+            text: "Close Stream"
+            height: 20
+            width: 40
+            anchors.top: parent.top
+            anchors.right: parent.right
+            onClicked: {
+                root.close() // Предполагается, что у объекта GstGLVideoItem есть метод stop
+            }
+        }
+        Button {
+            id: newStream
+            text: "New Stream"
+            height: 20
+            width: 40
+            anchors.top: parent.top
+            anchors.left: parent.left
+            onClicked: {
+                videoUrlDialog.open() // Предполагается, что у объекта GstGLVideoItem есть метод stop
+            }
+        }
 
-        MouseArea {
-            id: mousearea
+    Dialog {
+        id: videoUrlDialog
+        title: "Enter video URL"
+
+        Column {
             anchors.fill: parent
-            hoverEnabled: true
-            onEntered: {
-                parent.opacity = 1.0
-                hidetimer.start()
+            TextField {
+                id: videoUrlField
+                placeholderText: "Video URL"
+            }
+
+            Row {
+                Button {
+                    text: "OK"
+                    onClicked: {
+                        root.setSource(videoUrlField.text) // Предполагается, что у объекта GstGLVideoItem есть метод setUrl
+                        videoUrlDialog.close()
+                    }
+                }
+
+                Button {
+                    text: "Cancel"
+                    onClicked: videoUrlDialog.close()
+                }
             }
         }
 
-        Timer {
-            id: hidetimer
-            interval: 5000
-            onTriggered: {
-                parent.opacity = 0.0
-                stop()
-            }
-        }
+        Component.onCompleted: open()
     }
 }
