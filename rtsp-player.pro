@@ -5,20 +5,14 @@ CONFIG += c++17
 
 DEFINES += GST_USE_UNSTABLE_API
 
-INCLUDEPATH += $$PWD/include \
-    $(GSTREAMER_ROOT)\include\gstreamer-1.0 \
-    $(GSTREAMER_ROOT)\include\glib-2.0 \
-    $(GSTREAMER_ROOT)\lib\glib-2.0\include \
-    $(GSTREAMER_ROOT)\lib\gstreamer-1.0\include
-
-LIBS += \
-    $(GSTREAMER_ROOT)\lib\gstreamer-1.0.lib \
-    $(GSTREAMER_ROOT)\lib\gstbase-1.0.lib \
-    $(GSTREAMER_ROOT)\lib\glib-2.0.lib \
-    $(GSTREAMER_ROOT)\lib\gobject-2.0.lib \
-    $(GSTREAMER_ROOT)\lib\gstapp-1.0.lib \
-    $(GSTREAMER_ROOT)\lib\gstsdp-1.0.lib \
-    $(GSTREAMER_ROOT)\lib\gstvideo-1.0.lib
+QT_CONFIG -= no-pkg-config
+CONFIG += link_pkgconfig
+PKGCONFIG = \
+    gstreamer-1.0 \
+    gstreamer-video-1.0 \
+    gstreamer-gl-1.0
+PKGCONFIG +=  gstreamer-base-1.0 glib-2.0 gobject-2.0 gstreamer-app-1.0 gstreamer-sdp-1.0
+INCLUDEPATH += $$PWD/include
 
 SOURCES += main.cpp \
     videoitem.cpp

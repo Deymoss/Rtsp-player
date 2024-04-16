@@ -67,9 +67,6 @@ GstBusSyncReply messageHandler(GstBus * /*bus*/, GstMessage *msg, gpointer video
             gst_element_set_context(priv->m_videoPipe->pipeline, context);
             qDebug()<<"GST_MESSAGE_HAVE_CONTEXT"<<GST_MESSAGE_SRC(msg);
         }
-
-        if (context)
-            gst_context_unref(context);
         return GST_BUS_DROP;
     }  break;
 
@@ -180,8 +177,10 @@ VideoItem::~VideoItem()
 void VideoItem::close()
 {
     gst_element_set_state(m_videoPipe->pipeline, GST_STATE_NULL);
-    gst_object_unref(m_videoPipe->pipeline);
-    gst_object_unref(m_videoPipe->bus);
+    // gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
+    // gst_object_unref(m_videoPipe->pipeline);
+    // gst_object_unref(m_videoPipe->bus);
+    qDebug()<<"REFS";
 }
 
 void VideoItem::setState(State state)
@@ -278,6 +277,7 @@ void VideoItem::componentComplete()
 
 void VideoItem::createPipeline()
 {
+    qDebug()<<"Create pipeline";
     m_videoPipe->pipeline = gst_pipeline_new("nullptr");
     m_videoPipe->src = gst_element_factory_make ("rtspsrc", "src");
     g_object_set (G_OBJECT (m_videoPipe->src), "latency", 500, NULL);

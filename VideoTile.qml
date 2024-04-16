@@ -23,7 +23,7 @@ VideoItem {
             id: closeButton
             text: "Close Stream"
             height: 20
-            width: 40
+            width: 80
             anchors.top: parent.top
             anchors.right: parent.right
             onClicked: {
@@ -34,7 +34,7 @@ VideoItem {
             id: newStream
             text: "New Stream"
             height: 20
-            width: 40
+            width: 80
             anchors.top: parent.top
             anchors.left: parent.left
             onClicked: {
@@ -45,7 +45,7 @@ VideoItem {
     Dialog {
         id: videoUrlDialog
         title: "Enter video URL"
-
+        standardButtons: Dialog.NoButton
         Column {
             anchors.fill: parent
             TextField {
