@@ -41,7 +41,7 @@ private:
     struct VideoItemPrivate {
         explicit VideoItemPrivate()  { };
 
-        VideoItem *own { nullptr };
+        // QWeakPointer<VideoItem> own { nullptr };
         GstElement *pipeline { nullptr };
         GstElement *src { nullptr };
         GstElement *videoDecode { nullptr };
@@ -60,7 +60,7 @@ private:
     static void video_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
     void createPipeline();
 public:
-    VideoItemPrivate* m_videoPipe;
+    QSharedPointer<VideoItemPrivate> m_videoPipe;
 };
 
 #endif // VIDEOITEM_H

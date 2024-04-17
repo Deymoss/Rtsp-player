@@ -182,21 +182,25 @@ void VideoItem::close()
     // Remove the bus sync handler
     gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
 
-    // Unref the pipeline and its elements
-    gst_object_unref(m_videoPipe->pipeline);
+    // // Unref the pipeline and its elements
+    // gst_object_unref(m_videoPipe->pipeline);
 
-    // Unref the bus
-    gst_object_unref(m_videoPipe->bus);
-
+    // // Unref the bus
+    // gst_object_unref(m_videoPipe->bus);
+    gst_element_set_state(GST_ELEMENT(m_videoPipe->pipeline),GST_STATE_NULL);
+    GstElement *bin=(GstElement *)gst_element_get_parent(m_videoPipe->videoSink);
+    if(bin){
+        gst_bin_remove(GST_BIN(bin),GST_ELEMENT(m_videoPipe->videoSink));
+    }
+    gst_object_unref(GST_OBJECT(m_videoPipe->pipeline));
+    gst_object_unref(GST_OBJECT(m_videoPipe->bus));
     // Reset pointers
     // delete m_videoPipe->pipeline;
     // delete m_videoPipe->src;
     // delete m_videoPipe->videoDecode;
     // delete m_videoPipe->flip;
     // delete m_videoPipe->videoSink;
-    delete m_videoPipe->own;
-    m_videoPipe->own = nullptr;
-    delete m_videoPipe;
+    m_videoPipe.reset();
     qDebug()<<"REFS";
 }
 
@@ -296,7 +300,6 @@ void VideoItem::componentComplete()
 void VideoItem::createPipeline()
 {
     qDebug()<<"Create pipeline";
-    m_videoPipe = new VideoItemPrivate();
     m_videoPipe->pipeline = gst_pipeline_new("nullptr");
     m_videoPipe->src = gst_element_factory_make ("rtspsrc", "src");
     g_object_set (G_OBJECT (m_videoPipe->src), "latency", 500, NULL);
