@@ -176,10 +176,27 @@ VideoItem::~VideoItem()
 
 void VideoItem::close()
 {
+    // Stop the pipeline
     gst_element_set_state(m_videoPipe->pipeline, GST_STATE_NULL);
-    // gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
-    // gst_object_unref(m_videoPipe->pipeline);
-    // gst_object_unref(m_videoPipe->bus);
+
+    // Remove the bus sync handler
+    gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
+
+    // Unref the pipeline and its elements
+    gst_object_unref(m_videoPipe->pipeline);
+
+    // Unref the bus
+    gst_object_unref(m_videoPipe->bus);
+
+    // Reset pointers
+    // delete m_videoPipe->pipeline;
+    // delete m_videoPipe->src;
+    // delete m_videoPipe->videoDecode;
+    // delete m_videoPipe->flip;
+    // delete m_videoPipe->videoSink;
+    delete m_videoPipe->own;
+    m_videoPipe->own = nullptr;
+    delete m_videoPipe;
     qDebug()<<"REFS";
 }
 
@@ -236,7 +253,7 @@ void VideoItem::componentComplete()
     QQuickItem::componentComplete();
     QQuickItem *videoItem = findChild<QQuickItem *>("videoItem");
     Q_ASSERT(videoItem); // should not fail: check VideoItem.qml
-    // needed for proper OpenGL context setup for GStreamer elements (QtQuick renderer)
+    //needed for proper OpenGL context setup for GStreamer elements (QtQuick renderer)
     auto setRenderer = [=](QQuickWindow *window) {
         if (window) {
             GstElement *glsink = gst_element_factory_make("qmlglsink", nullptr);
@@ -262,13 +279,14 @@ void VideoItem::componentComplete()
             }
             }
             gst_element_set_state(m_videoPipe->pipeline, GST_STATE_NULL);
-            glsink = GST_ELEMENT(gst_object_ref(glsink));// what are you doing ???
+            glsink = GST_ELEMENT(gst_object_ref(glsink));
             window->scheduleRenderJob(new RenderJob([=] {
                                           g_object_set(glsink, "widget", videoItem, nullptr);
                                           g_object_set(m_videoPipe->videoSink, "sink", glsink, nullptr);
-                                          gst_element_set_state(m_videoPipe->pipeline, target);
+                                           gst_element_set_state(m_videoPipe->pipeline, target);
                                       }),
                                       QQuickWindow::BeforeSynchronizingStage);
+            gst_object_unref(glsink);
         }
     };
     setRenderer(window());
@@ -278,6 +296,7 @@ void VideoItem::componentComplete()
 void VideoItem::createPipeline()
 {
     qDebug()<<"Create pipeline";
+    m_videoPipe = new VideoItemPrivate();
     m_videoPipe->pipeline = gst_pipeline_new("nullptr");
     m_videoPipe->src = gst_element_factory_make ("rtspsrc", "src");
     g_object_set (G_OBJECT (m_videoPipe->src), "latency", 500, NULL);

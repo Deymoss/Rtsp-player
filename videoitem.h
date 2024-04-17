@@ -60,7 +60,7 @@ private:
     static void video_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
     void createPipeline();
 public:
-    QSharedPointer<VideoItemPrivate> m_videoPipe;
+    VideoItemPrivate* m_videoPipe;
 };
 
 #endif // VIDEOITEM_H
