@@ -1,0 +1,2868 @@
+desc: (none)
+cmd: ./rtsp-player
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=271278271
+mem_heap_B=1984
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=346216010
+mem_heap_B=5080468
+mem_heap_extra_B=951460
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5080468 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n5: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 248249 0x1A314761: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 248249 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 248249 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 248249 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 248249 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 248249 0x4006567: call_init (dl-init.c:33)
+        n1: 248249 0x4006567: _dl_init (dl-init.c:117)
+         n0: 248249 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 202664 0x1A314793: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 202664 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 202664 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 202664 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 202664 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 202664 0x4006567: call_init (dl-init.c:33)
+        n1: 202664 0x4006567: _dl_init (dl-init.c:117)
+         n0: 202664 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 145037 0x1A314EA2: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 145037 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 145037 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 145037 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 145037 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 145037 0x4006567: call_init (dl-init.c:33)
+        n1: 145037 0x4006567: _dl_init (dl-init.c:117)
+         n0: 145037 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 115137 0x1A314D63: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 115137 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 115137 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 115137 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 115137 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 115137 0x4006567: call_init (dl-init.c:33)
+        n1: 115137 0x4006567: _dl_init (dl-init.c:117)
+         n0: 115137 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 16822 in 10 places, all below massif's threshold (1.00%)
+ n0: 337063 in 231 places, all below massif's threshold (1.00%)
+ n1: 289600 0xB20D991: alloc_pool::add_memory_block() (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+  n2: 289600 0xB20DBD6: alloc_pool::alloc_pool(unsigned long, int, bool) (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+   n1: 256000 0xB20C672: ??? (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+    n1: 256000 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 256000 0x4006567: call_init (dl-init.c:33)
+      n1: 256000 0x4006567: _dl_init (dl-init.c:117)
+       n0: 256000 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+   n0: 33600 in 1 place, below massif's threshold (1.00%)
+ n2: 141824 0x1A523992: ??? (in /usr/lib/x86_64-linux-gnu/libcharls.so.2.3.4)
+  n1: 131072 0x1A523E41: ??? (in /usr/lib/x86_64-linux-gnu/libcharls.so.2.3.4)
+   n1: 131072 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 131072 0x4006567: call_init (dl-init.c:33)
+     n1: 131072 0x4006567: _dl_init (dl-init.c:117)
+      n0: 131072 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 10752 in 3 places, all below massif's threshold (1.00%)
+ n2: 91504 0x1DF333DC: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.2)
+  n1: 72656 0x164AD4E7: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.31.0)
+   n1: 72656 0x1647BCA2: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.31.0)
+    n1: 72656 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 72656 0x4006567: call_init (dl-init.c:33)
+      n1: 72656 0x4006567: _dl_init (dl-init.c:117)
+       n0: 72656 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 18848 in 1 place, below massif's threshold (1.00%)
+ n1: 73728 0x16675479: srt::CUDTUnited::CUDTUnited() (in /usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.4.4)
+  n1: 73728 0x16673942: ??? (in /usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.4.4)
+   n1: 73728 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 73728 0x4006567: call_init (dl-init.c:33)
+     n1: 73728 0x4006567: _dl_init (dl-init.c:117)
+      n0: 73728 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 72704 0x8EA0939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 65520 0x9067791: __new_exitfn (cxa_atexit.c:114)
+  n1: 65520 0x906790A: __internal_atexit (cxa_atexit.c:44)
+   n1: 65520 0x906790A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 65520 in 59 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=410187090
+mem_heap_B=7497583
+mem_heap_extra_B=1321801
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=461295944
+mem_heap_B=9317382
+mem_heap_extra_B=1547058
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=546465554
+mem_heap_B=99447569
+mem_heap_extra_B=1567591
+mem_stacks_B=0
+heap_tree=peak
+n7: 99447569 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 87244800 0x21A1D05A: DelayGrab::DelayGrab(int, int) (in /usr/lib/frei0r-1/delaygrab.so)
+  n1: 87244800 0x21A1D0D7: frei0r::construct<DelayGrab>::build(unsigned int, unsigned int) (in /usr/lib/frei0r-1/delaygrab.so)
+   n1: 87244800 0x21A1CA43: f0r_construct (in /usr/lib/frei0r-1/delaygrab.so)
+    n1: 87244800 0x56180E1: register_plugin (gstfrei0r.c:551)
+     n1: 87244800 0x56180E1: register_plugins (gstfrei0r.c:645)
+      n1: 87244800 0x56183FB: plugin_init (gstfrei0r.c:703)
+       n1: 87244800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+        n1: 87244800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+         n1: 87244800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+          n1: 87244800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+           n1: 87244800 0x49D8662: init_static_plugins (gst.c:637)
+            n1: 87244800 0x49D8662: init_post.part.0 (gst.c:804)
+             n1: 87244800 0x49D86DC: init_post (gst.c:822)
+              n1: 87244800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+               n1: 87244800 0x49D9136: gst_init_check (gst.c:416)
+                n1: 87244800 0x49D91C7: gst_init (gst.c:455)
+                 n0: 87244800 0x10E1B9: main (main.cpp:13)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 3426052 in 363 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1618320 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1618320 in 68 places, all below massif's threshold (1.00%)
+ n1: 1420181 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1420181 in 110 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=631685638
+mem_heap_B=11960475
+mem_heap_extra_B=1572493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=693813855
+mem_heap_B=13191336
+mem_heap_extra_B=1572688
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=758949249
+mem_heap_B=12057314
+mem_heap_extra_B=1586558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=829103354
+mem_heap_B=22052911
+mem_heap_extra_B=1604625
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=947867714
+mem_heap_B=12243785
+mem_heap_extra_B=1604399
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1065827746
+mem_heap_B=14703734
+mem_heap_extra_B=1604562
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1159718620
+mem_heap_B=12599112
+mem_heap_extra_B=1653488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1211090645
+mem_heap_B=13422259
+mem_heap_extra_B=1789213
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1305963393
+mem_heap_B=14928323
+mem_heap_extra_B=1996589
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1374791626
+mem_heap_B=15478466
+mem_heap_extra_B=2106910
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1464372871
+mem_heap_B=16938526
+mem_heap_extra_B=2208218
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1540090520
+mem_heap_B=16661735
+mem_heap_extra_B=2299577
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1595159790
+mem_heap_B=17156298
+mem_heap_extra_B=2372958
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1664028408
+mem_heap_B=17587780
+mem_heap_extra_B=2446596
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1760412527
+mem_heap_B=18249998
+mem_heap_extra_B=2560674
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1829277339
+mem_heap_B=19524263
+mem_heap_extra_B=2815425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1884351832
+mem_heap_B=21067544
+mem_heap_extra_B=3247520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1939805147
+mem_heap_B=21700402
+mem_heap_extra_B=3375350
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2009992918
+mem_heap_B=22226611
+mem_heap_extra_B=3509021
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2106563505
+mem_heap_B=25049594
+mem_heap_extra_B=3885486
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2271740922
+mem_heap_B=25064799
+mem_heap_extra_B=3886345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2327728987
+mem_heap_B=26411068
+mem_heap_extra_B=3976892
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2396761701
+mem_heap_B=26612908
+mem_heap_extra_B=3990812
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2495569462
+mem_heap_B=26955776
+mem_heap_extra_B=4028808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2553931236
+mem_heap_B=27424346
+mem_heap_extra_B=4157230
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2626739386
+mem_heap_B=29727846
+mem_heap_extra_B=4842546
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2714137608
+mem_heap_B=28747970
+mem_heap_extra_B=4501926
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2999271337
+mem_heap_B=29247825
+mem_heap_extra_B=4504247
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3022212756
+mem_heap_B=28765180
+mem_heap_extra_B=4504380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3328647045
+mem_heap_B=28781042
+mem_heap_extra_B=4509014
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3343213388
+mem_heap_B=29392962
+mem_heap_extra_B=4572798
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3637441843
+mem_heap_B=29894135
+mem_heap_extra_B=4575833
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3660359675
+mem_heap_B=29411407
+mem_heap_extra_B=4575881
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3952661822
+mem_heap_B=29935991
+mem_heap_extra_B=4582841
+mem_stacks_B=0
+heap_tree=detailed
+n13: 29935991 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 6793864 in 2704 places, all below massif's threshold (1.00%)
+ n3: 6071695 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3163784 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2736744 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1944624 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 650384 in 13 places, all below massif's threshold (1.00%)
+      n2: 543888 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 521568 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n2: 461664 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+         n1: 397008 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+          n1: 397008 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 397008 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 397008 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+             n1: 397008 0x5D2C29B: plugin_init (gstav.c:159)
+              n1: 397008 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 397008 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 397008 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 397008 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 397008 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 397008 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 397008 0x49D86DC: init_post (gst.c:822)
+                     n1: 397008 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 397008 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 397008 0x49D91C7: gst_init (gst.c:455)
+                        n0: 397008 0x10E1B9: main (main.cpp:13)
+         n0: 64656 in 1 place, below massif's threshold (1.00%)
+        n0: 59904 in 1 place, below massif's threshold (1.00%)
+       n0: 22320 in 29 places, all below massif's threshold (1.00%)
+     n1: 632472 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 632472 in 18 places, all below massif's threshold (1.00%)
+     n0: 117880 in 2 places, all below massif's threshold (1.00%)
+    n1: 792120 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n3: 792120 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 419584 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 419584 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 419584 in 5 places, all below massif's threshold (1.00%)
+      n1: 372056 0x68E334C: g_object_new_with_properties (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 372056 0x68E3E50: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 372056 in 18 places, all below massif's threshold (1.00%)
+      n0: 480 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 427040 in 43 places, all below massif's threshold (1.00%)
+  n3: 1756798 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 636076 in 150 places, all below massif's threshold (1.00%)
+   n1: 618430 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 618430 in 14 places, all below massif's threshold (1.00%)
+   n1: 502292 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 502292 in 15 places, all below massif's threshold (1.00%)
+  n0: 1151113 in 119 places, all below massif's threshold (1.00%)
+ n4: 5063786 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n5: 2287488 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n3: 987752 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 456136 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 456136 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 434232 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 434232 in 606 places, all below massif's threshold (1.00%)
+      n0: 21904 in 3 places, all below massif's threshold (1.00%)
+    n1: 436008 0x4A0CDD7: gst_element_register (gstelementfactory.c:253)
+     n0: 436008 in 612 places, all below massif's threshold (1.00%)
+    n0: 95608 in 16 places, all below massif's threshold (1.00%)
+   n1: 508232 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 508232 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n2: 446664 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n1: 372960 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+       n0: 372960 in 67 places, all below massif's threshold (1.00%)
+      n0: 73704 in 103 places, all below massif's threshold (1.00%)
+     n0: 61568 in 61 places, all below massif's threshold (1.00%)
+   n1: 392200 0x4A54B3F: gst_structure_new_valist (gststructure.c:436)
+    n0: 392200 in 2 places, all below massif's threshold (1.00%)
+   n1: 355496 0x49F221E: gst_caps_new_empty_simple (gstcaps.c:313)
+    n0: 355496 in 108 places, all below massif's threshold (1.00%)
+   n0: 43808 in 17 places, all below massif's threshold (1.00%)
+  n2: 1154536 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 107024 in 133 places, all below massif's threshold (1.00%)
+  n0: 843554 in 98 places, all below massif's threshold (1.00%)
+  n1: 778208 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 778208 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 778208 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n3: 778208 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n1: 412528 0x4A54517: gst_structure_id_set_value_internal (gststructure.c:700)
+       n2: 412528 0x4A54517: gst_structure_set_value (gststructure.c:746)
+        n2: 410864 0x49F3459: gst_caps_set_value (gstcaps.c:1118)
+         n1: 349104 0x5D49D2C: gst_ffmpeg_video_set_pix_fmts (gstavcodecmap.c:311)
+          n1: 349104 0x5D49D2C: gst_ffmpeg_codectype_to_video_caps (gstavcodecmap.c:2772)
+           n0: 349104 in 3 places, all below massif's threshold (1.00%)
+         n0: 61760 in 16 places, all below massif's threshold (1.00%)
+        n0: 1664 in 5 places, all below massif's threshold (1.00%)
+      n2: 365680 0x4A53FE0: gst_structure_copy (gststructure.c:508)
+       n1: 361616 0x49F291E: _gst_caps_copy (gstcaps.c:185)
+        n0: 361616 in 7 places, all below massif's threshold (1.00%)
+       n0: 4064 in 9 places, all below massif's threshold (1.00%)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1733501 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 917322 0x87437D2: allocate (qarraydata.h:225)
+   n2: 917322 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n1: 484990 0x88FCE4C: QUtf8::convertToUnicode(char const*, int) (qutfcodec.cpp:483)
+     n1: 484990 0x87477FD: QString::fromUtf8_helper(char const*, int) (qstring.cpp:5590)
+      n0: 484990 in 70 places, all below massif's threshold (1.00%)
+    n0: 432332 in 52 places, all below massif's threshold (1.00%)
+  n0: 816179 in 71 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n3: 1313280 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n2: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 436736 in 13 places, all below massif's threshold (1.00%)
+   n2: 362592 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n1: 347712 0x5D3AB06: install_opts (gstavcfg.c:363)
+     n0: 347712 in 2 places, all below massif's threshold (1.00%)
+    n0: 14880 in 29 places, all below massif's threshold (1.00%)
+  n1: 420360 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 420360 in 18 places, all below massif's threshold (1.00%)
+  n0: 93592 in 2 places, all below massif's threshold (1.00%)
+ n1: 1218616 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1218616 in 30 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 478660 0x1619BEA3: FcFontSetSort (in /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0)
+  n1: 478660 0x1619C641: FcFontSort (in /usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0)
+   n1: 478660 0x246B541D: QFontconfigDatabase::fallbacksForFamily(QString const&, QFont::Style, QFont::StyleHint, QChar::Script) const (qfontconfigdatabase.cpp:783)
+    n2: 478660 0xA244EAB: fallbacksForFamily(QString const&, QFont::Style, QFont::StyleHint, QChar::Script) (qfontdatabase.cpp:864)
+     n1: 478660 0xA245A43: QFontDatabase::findFont(QFontDef const&, int) (qfontdatabase.cpp:2717)
+      n1: 478660 0xA2464FC: QFontDatabase::load(QFontPrivate const*, int) (qfontdatabase.cpp:2824)
+       n2: 478660 0xA21D679: QFontPrivate::engineForScript(int) const (qfont.cpp:244)
+        n1: 478660 0xA24DDF2: QTextEngine::fontEngine(QScriptItem const&, QFixed*, QFixed*, QFixed*) const (qtextengine.cpp:2553)
+         n1: 478660 0xA24F723: QTextEngine::shapeText(int) const (qtextengine.cpp:1436)
+          n1: 478660 0xA250898: QTextEngine::shape(int) const (qtextengine.cpp:2028)
+           n1: 478660 0xA256B71: QTextEngine::width(int, int) const (qtextengine.cpp:2272)
+            n1: 478660 0xA23B363: QFontMetrics::horizontalAdvance(QString const&, int) const (qfontmetrics.cpp:636)
+             n1: 478660 0x27A3F98E: ??? (in /home/deymos/Qt/5.15.2/gcc_64/qml/QtQuick/Controls/libqtquickcontrolsplugin.so)
+              n1: 478660 0x7: ???
+               n1: 478660 0x291CCBA7: ???
+                n0: 478660 0x1FFEFFB8BF: ???
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 423408 0x68FB0C9: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n0: 423408 in 4 places, all below massif's threshold (1.00%)
+ n1: 373056 0x24987802: ???
+  n0: 373056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=4004796903
+mem_heap_B=30626479
+mem_heap_extra_B=4613025
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=4063305955
+mem_heap_B=30626479
+mem_heap_extra_B=4613025
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=4121762031
+mem_heap_B=35526776
+mem_heap_extra_B=4685312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=4163232523
+mem_heap_B=36725807
+mem_heap_extra_B=4694705
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=4224032615
+mem_heap_B=36730467
+mem_heap_extra_B=4695165
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=4424513852
+mem_heap_B=36748375
+mem_heap_extra_B=4695273
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=4447431496
+mem_heap_B=36265602
+mem_heap_extra_B=4695334
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=4755693115
+mem_heap_B=36382537
+mem_heap_extra_B=4703487
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4814176763
+mem_heap_B=44762086
+mem_heap_extra_B=5150666
+mem_stacks_B=0
+heap_tree=detailed
+n16: 44762086 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 12887875 in 3426 places, all below massif's threshold (1.00%)
+ n2: 6180800 0x294D8D44: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n2: 6010688 0x294D8DAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n0: 5353856 in 1271 places, all below massif's threshold (1.00%)
+   n1: 656832 0x29823319: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n0: 656832 in 154 places, all below massif's threshold (1.00%)
+  n0: 170112 in 20 places, all below massif's threshold (1.00%)
+ n3: 6075133 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3166352 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2738048 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1945928 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 650384 in 13 places, all below massif's threshold (1.00%)
+      n2: 543888 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 521568 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n0: 521568 in 2 places, all below massif's threshold (1.00%)
+       n0: 22320 in 29 places, all below massif's threshold (1.00%)
+     n1: 632472 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 632472 in 18 places, all below massif's threshold (1.00%)
+     n0: 119184 in 2 places, all below massif's threshold (1.00%)
+    n1: 792120 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 792120 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 792120 in 3 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 428304 in 43 places, all below massif's threshold (1.00%)
+  n3: 1756956 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 636216 in 152 places, all below massif's threshold (1.00%)
+   n1: 618430 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 618430 in 14 places, all below massif's threshold (1.00%)
+   n1: 502310 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 502310 in 15 places, all below massif's threshold (1.00%)
+  n0: 1151825 in 121 places, all below massif's threshold (1.00%)
+ n4: 5079718 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2287920 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n1: 989368 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n0: 989368 in 21 places, all below massif's threshold (1.00%)
+   n0: 790320 in 19 places, all below massif's threshold (1.00%)
+   n1: 508232 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n1: 508232 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n0: 508232 in 62 places, all below massif's threshold (1.00%)
+  n2: 1156336 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 108824 in 133 places, all below massif's threshold (1.00%)
+  n0: 857254 in 102 places, all below massif's threshold (1.00%)
+  n1: 778208 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 778208 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 778208 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n1: 778208 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n0: 778208 in 3 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1848347 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 957362 0x87437D2: allocate (qarraydata.h:225)
+   n2: 957362 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n1: 521616 0x88FCE4C: QUtf8::convertToUnicode(char const*, int) (qutfcodec.cpp:483)
+     n1: 521616 0x87477FD: QString::fromUtf8_helper(char const*, int) (qstring.cpp:5590)
+      n0: 521616 in 75 places, all below massif's threshold (1.00%)
+    n0: 435746 in 55 places, all below massif's threshold (1.00%)
+  n0: 890985 in 82 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 1314088 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n0: 514760 in 3 places, all below massif's threshold (1.00%)
+ n1: 1236536 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1236536 in 31 places, all below massif's threshold (1.00%)
+ n1: 907848 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 907848 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 907848 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 907848 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 907848 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 907848 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 907848 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n1: 907848 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 907848 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n2: 795216 0x2499D338: ???
+      n1: 530144 0x24987120: ???
+       n1: 530144 0x7D93A83: ??? (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+        n1: 530144 0x28E0A8EF: QGLXContext::init(QXcbScreen*, QPlatformOpenGLContext*) (qglxintegration.cpp:358)
+         n1: 530144 0x28E08166: QXcbGlxIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbglxintegration.cpp:191)
+          n1: 530144 0x246402B1: QXcbIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbintegration.cpp:283)
+           n2: 530144 0xA1B3D6C: QOpenGLContext::create() (qopenglcontext.cpp:612)
+            n1: 530144 0x6E05BD3: QSGThreadedRenderLoop::handleExposure(QQuickWindow*) (qsgthreadedrenderloop.cpp:1337)
+             n1: 530144 0x6E05EFF: QSGThreadedRenderLoop::exposureChanged(QQuickWindow*) (qsgthreadedrenderloop.cpp:1269)
+              n1: 530144 0xA17A63A: QWindow::event(QEvent*) (qwindow.cpp:2438)
+               n1: 530144 0x6E653B8: QQuickWindow::event(QEvent*) (qquickwindow.cpp:1902)
+                n1: 530144 0x756343B: QApplicationPrivate::notify_helper(QObject*, QEvent*) (qapplication.cpp:3632)
+                 n1: 530144 0x7569F1F: QApplication::notify(QObject*, QEvent*) (qapplication.cpp:3378)
+                  n1: 530144 0x889D807: QCoreApplication::notifyInternal2(QObject*, QEvent*) (qcoreapplication.cpp:1063)
+                   n1: 530144 0xA1707AE: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (qguiapplication.cpp:3258)
+                    n1: 530144 0xA1709EC: QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) (qguiapplication.cpp:2070)
+                     n1: 530144 0xA14C8AA: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qwindowsysteminterface.cpp:1169)
+                      n1: 530144 0x24665699: xcbSourceDispatch(_GSource*, int (*)(void*), void*) (qxcbeventdispatcher.cpp:105)
+                       n1: 530144 0x6972D3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 530144 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 530144 0x69703E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 530144 0x88F91CB: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qeventdispatcher_glib.cpp:423)
+                           n1: 530144 0x889C219: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (qeventloop.cpp:232)
+                            n1: 530144 0x88A51D2: QCoreApplication::exec() (qcoreapplication.cpp:1371)
+                             n0: 530144 0x10E369: main (main.cpp:28)
+            n0: 0 in 1 place, below massif's threshold (1.00%)
+      n0: 265072 in 1 place, below massif's threshold (1.00%)
+ n1: 739752 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 739752 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 739752 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 739752 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 739752 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 739752 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n1: 739752 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n1: 739752 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n1: 642168 0x2499D338: ???
+       n0: 642168 in 2 places, all below massif's threshold (1.00%)
+ n1: 588480 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 588480 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=4889540634
+mem_heap_B=51185389
+mem_heap_extra_B=5287403
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=4904121958
+mem_heap_B=52684326
+mem_heap_extra_B=5335706
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4918725892
+mem_heap_B=56237691
+mem_heap_extra_B=5363989
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4933590381
+mem_heap_B=58709691
+mem_heap_extra_B=5386261
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4949858705
+mem_heap_B=58703242
+mem_heap_extra_B=5388558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4965258115
+mem_heap_B=58707239
+mem_heap_extra_B=5388969
+mem_stacks_B=0
+heap_tree=detailed
+n20: 58707239 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 15481100 in 3510 places, all below massif's threshold (1.00%)
+ n4: 7161978 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3337496 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2851528 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 2038840 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 1194272 in 14 places, all below massif's threshold (1.00%)
+     n1: 642328 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 642328 in 18 places, all below massif's threshold (1.00%)
+     n0: 202240 in 2 places, all below massif's threshold (1.00%)
+    n1: 812368 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 812368 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 812368 in 3 places, all below massif's threshold (1.00%)
+    n0: 320 in 2 places, all below massif's threshold (1.00%)
+   n0: 485968 in 60 places, all below massif's threshold (1.00%)
+  n1: 1771540 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 1771540 in 258 places, all below massif's threshold (1.00%)
+  n0: 1251670 in 148 places, all below massif's threshold (1.00%)
+  n1: 801272 0x49DC8B9: _sysmem_new_block (gstallocator.c:434)
+   n0: 801272 in 3 places, all below massif's threshold (1.00%)
+ n2: 6206912 0x294D8D44: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n2: 6019712 0x294D8DAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n0: 5362880 in 1275 places, all below massif's threshold (1.00%)
+   n1: 656832 0x29823319: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n0: 656832 in 154 places, all below massif's threshold (1.00%)
+  n0: 187200 in 21 places, all below massif's threshold (1.00%)
+ n4: 5695058 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2545056 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n1: 1003944 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n0: 1003944 in 35 places, all below massif's threshold (1.00%)
+   n0: 846400 in 26 places, all below massif's threshold (1.00%)
+   n1: 694712 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n1: 694712 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n0: 694712 in 62 places, all below massif's threshold (1.00%)
+  n0: 1207890 in 159 places, all below massif's threshold (1.00%)
+  n2: 1163072 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 115560 in 133 places, all below massif's threshold (1.00%)
+  n1: 779040 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 779040 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 779040 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n1: 779040 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n0: 779040 in 3 places, all below massif's threshold (1.00%)
+ n1: 3631392 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 3631392 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 3631392 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 3631392 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 3631392 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 3631392 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 3631392 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 3631392 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n2: 2723544 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1815696 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1815696 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1815696 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1815696 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1815696 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1815696 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1815696 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 1815696 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n2: 1815696 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x249AB291: ???
+                       n1: 907848 0x2499CDF4: ???
+                        n1: 907848 0x2498C3FE: ???
+                         n1: 907848 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                          n1: 907848 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                           n1: 907848 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                            n1: 907848 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                             n1: 907848 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                   n1: 907848 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                      n1: 907848 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                       n1: 907848 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                        n1: 907848 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                         n1: 907848 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 907848 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 907848 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 907848 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                             n1: 907848 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+         n1: 907848 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                n0: 907848 0x9147A03: clone (clone.S:100)
+ n1: 2959008 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 2959008 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 2959008 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 2959008 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 2959008 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 2959008 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n2: 2959008 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 2219256 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 1479504 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1479504 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1479504 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1479504 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1479504 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1479504 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1479504 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1479504 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n2: 1479504 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x249AB291: ???
+                      n1: 739752 0x2499CDF4: ???
+                       n1: 739752 0x2498C3FE: ???
+                        n1: 739752 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                         n1: 739752 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                          n1: 739752 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                           n1: 739752 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                            n1: 739752 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+                  n1: 739752 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                     n1: 739752 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                      n1: 739752 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                       n1: 739752 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                        n1: 739752 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 739752 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 739752 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 739752 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                            n1: 739752 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+        n1: 739752 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+               n0: 739752 0x9147A03: clone (clone.S:100)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1855867 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 957460 0x87437D2: allocate (qarraydata.h:225)
+   n1: 957460 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n0: 957460 in 56 places, all below massif's threshold (1.00%)
+  n0: 898407 in 82 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 1569280 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 784640 0x2E198A1F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E1987E9: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2E199F9F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n0: 784640 in 2 places, all below massif's threshold (1.00%)
+  n1: 784640 0x2E2B36C7: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E29E478: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2DF9519C: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2D963728: llvm::TargetTransformInfoWrapperPass::getTTI(llvm::Function const&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2D7123B5: llvm::AssumptionCacheTracker::getAssumptionCache(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2D256E7B: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+          n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+           n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n0: 784640 in 2 places, all below massif's threshold (1.00%)
+ n2: 1381992 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n0: 582664 in 3 places, all below massif's threshold (1.00%)
+ n1: 1306945 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1306945 in 42 places, all below massif's threshold (1.00%)
+ n2: 1253142 0xE0C69E4: av_malloc (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+  n1: 1067116 0xE0C6DC1: av_mallocz (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+   n0: 1067116 in 46 places, all below massif's threshold (1.00%)
+  n0: 186026 in 7 places, all below massif's threshold (1.00%)
+ n1: 801728 0x2E298982: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 801728 0x2E29E3D4: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n0: 801728 in 2 places, all below massif's threshold (1.00%)
+ n1: 798720 0x2C53767F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 798720 0x2C52EC28: llvm::PMTopLevelManager::setLastUser(llvm::ArrayRef<llvm::Pass*>, llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 798720 0x2C532D4F: llvm::PMDataManager::add(llvm::Pass*, bool) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 798720 0x2C530CD5: llvm::PMTopLevelManager::schedulePass(llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n0: 798720 in 4 places, all below massif's threshold (1.00%)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 795216 0x2499D338: ???
+      n0: 795216 in 2 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 700608 0x2C8DF571: llvm::createGreedyRegisterAllocator(std::function<bool (llvm::TargetRegisterInfo const&, llvm::TargetRegisterClass const&)>) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 700608 in 2 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n1: 642168 0x2499D338: ???
+       n0: 642168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=4980907055
+mem_heap_B=58716116
+mem_heap_extra_B=5389524
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=4995796758
+mem_heap_B=58718352
+mem_heap_extra_B=5389536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=5013111778
+mem_heap_B=58739846
+mem_heap_extra_B=5390154
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=5029993599
+mem_heap_B=58733336
+mem_heap_extra_B=5390016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=5044562372
+mem_heap_B=58898883
+mem_heap_extra_B=5389885
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=5061131947
+mem_heap_B=58733047
+mem_heap_extra_B=5389945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=5076975843
+mem_heap_B=58746716
+mem_heap_extra_B=5390940
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=5092230841
+mem_heap_B=58747979
+mem_heap_extra_B=5390541
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=5107718204
+mem_heap_B=58748932
+mem_heap_extra_B=5390500
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=5122592968
+mem_heap_B=58749057
+mem_heap_extra_B=5390799
+mem_stacks_B=0
+heap_tree=detailed
+n20: 58749057 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 15481527 in 3510 places, all below massif's threshold (1.00%)
+ n4: 7188521 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3338472 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2852240 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 2038840 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 1194272 in 14 places, all below massif's threshold (1.00%)
+     n1: 642328 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 642328 in 18 places, all below massif's threshold (1.00%)
+     n0: 202240 in 2 places, all below massif's threshold (1.00%)
+    n1: 813080 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 813080 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 813080 in 3 places, all below massif's threshold (1.00%)
+    n0: 320 in 2 places, all below massif's threshold (1.00%)
+   n0: 486232 in 60 places, all below massif's threshold (1.00%)
+  n1: 1771937 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 1771937 in 258 places, all below massif's threshold (1.00%)
+  n0: 1256734 in 148 places, all below massif's threshold (1.00%)
+  n1: 821378 0x49DC8B9: _sysmem_new_block (gstallocator.c:434)
+   n0: 821378 in 3 places, all below massif's threshold (1.00%)
+ n2: 6206912 0x294D8D44: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n2: 6019712 0x294D8DAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n0: 5362880 in 1275 places, all below massif's threshold (1.00%)
+   n1: 656832 0x29823319: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n0: 656832 in 154 places, all below massif's threshold (1.00%)
+  n0: 187200 in 21 places, all below massif's threshold (1.00%)
+ n4: 5709826 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2550384 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n1: 1008088 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n0: 1008088 in 35 places, all below massif's threshold (1.00%)
+   n0: 847584 in 26 places, all below massif's threshold (1.00%)
+   n1: 694712 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n1: 694712 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n0: 694712 in 62 places, all below massif's threshold (1.00%)
+  n0: 1217330 in 159 places, all below massif's threshold (1.00%)
+  n2: 1163072 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 115560 in 133 places, all below massif's threshold (1.00%)
+  n1: 779040 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 779040 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 779040 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n1: 779040 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n0: 779040 in 3 places, all below massif's threshold (1.00%)
+ n1: 3631392 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 3631392 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 3631392 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 3631392 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 3631392 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 3631392 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 3631392 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 3631392 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n2: 2723544 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1815696 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1815696 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1815696 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1815696 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1815696 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1815696 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1815696 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 1815696 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n2: 1815696 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x249AB291: ???
+                       n1: 907848 0x2499CDF4: ???
+                        n1: 907848 0x2498C3FE: ???
+                         n1: 907848 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                          n1: 907848 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                           n1: 907848 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                            n1: 907848 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                             n1: 907848 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                   n1: 907848 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                      n1: 907848 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                       n1: 907848 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                        n1: 907848 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                         n1: 907848 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 907848 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 907848 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 907848 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                             n1: 907848 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+         n1: 907848 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                n0: 907848 0x9147A03: clone (clone.S:100)
+ n1: 2959008 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 2959008 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 2959008 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 2959008 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 2959008 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 2959008 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n2: 2959008 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 2219256 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 1479504 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1479504 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1479504 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1479504 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1479504 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1479504 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1479504 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1479504 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n2: 1479504 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x249AB291: ???
+                      n1: 739752 0x2499CDF4: ???
+                       n1: 739752 0x2498C3FE: ???
+                        n1: 739752 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                         n1: 739752 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                          n1: 739752 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                           n1: 739752 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                            n1: 739752 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+                  n1: 739752 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                     n1: 739752 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                      n1: 739752 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                       n1: 739752 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                        n1: 739752 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 739752 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 739752 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 739752 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                            n1: 739752 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+        n1: 739752 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+               n0: 739752 0x9147A03: clone (clone.S:100)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1855867 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 957460 0x87437D2: allocate (qarraydata.h:225)
+   n1: 957460 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n0: 957460 in 56 places, all below massif's threshold (1.00%)
+  n0: 898407 in 82 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 1569280 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 784640 0x2E198A1F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E1987E9: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2E199F9F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n0: 784640 in 2 places, all below massif's threshold (1.00%)
+  n1: 784640 0x2E2B36C7: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E29E478: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2DF9519C: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2D963728: llvm::TargetTransformInfoWrapperPass::getTTI(llvm::Function const&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2D7123B5: llvm::AssumptionCacheTracker::getAssumptionCache(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2D256E7B: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+          n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+           n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n0: 784640 in 2 places, all below massif's threshold (1.00%)
+ n2: 1381992 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n0: 582664 in 3 places, all below massif's threshold (1.00%)
+ n1: 1307025 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1307025 in 42 places, all below massif's threshold (1.00%)
+ n2: 1253142 0xE0C69E4: av_malloc (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+  n1: 1067116 0xE0C6DC1: av_mallocz (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+   n0: 1067116 in 46 places, all below massif's threshold (1.00%)
+  n0: 186026 in 7 places, all below massif's threshold (1.00%)
+ n1: 801728 0x2E298982: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 801728 0x2E29E3D4: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n0: 801728 in 2 places, all below massif's threshold (1.00%)
+ n1: 798720 0x2C53767F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 798720 0x2C52EC28: llvm::PMTopLevelManager::setLastUser(llvm::ArrayRef<llvm::Pass*>, llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 798720 0x2C532D4F: llvm::PMDataManager::add(llvm::Pass*, bool) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 798720 0x2C530CD5: llvm::PMTopLevelManager::schedulePass(llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n0: 798720 in 4 places, all below massif's threshold (1.00%)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 795216 0x2499D338: ???
+      n0: 795216 in 2 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 700608 0x2C8DF571: llvm::createGreedyRegisterAllocator(std::function<bool (llvm::TargetRegisterInfo const&, llvm::TargetRegisterClass const&)>) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 700608 in 2 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n1: 642168 0x2499D338: ???
+       n0: 642168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=65
+#-----------
+time=5138560828
+mem_heap_B=58750317
+mem_heap_extra_B=5390747
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=5154521297
+mem_heap_B=58751189
+mem_heap_extra_B=5390779
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=5170028783
+mem_heap_B=58750742
+mem_heap_extra_B=5390554
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=5187110848
+mem_heap_B=58751488
+mem_heap_extra_B=5390824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=5201677747
+mem_heap_B=58923712
+mem_heap_extra_B=5390816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=5218085391
+mem_heap_B=58751129
+mem_heap_extra_B=5390735
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=5232678276
+mem_heap_B=58916995
+mem_heap_extra_B=5390493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=5247267784
+mem_heap_B=58922092
+mem_heap_extra_B=5391236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=5263238386
+mem_heap_B=58752986
+mem_heap_extra_B=5390774
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=5278808633
+mem_heap_B=58752164
+mem_heap_extra_B=5390956
+mem_stacks_B=0
+heap_tree=detailed
+n20: 58752164 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 15481590 in 3510 places, all below massif's threshold (1.00%)
+ n4: 7190821 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3338448 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2852240 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 2038840 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 1194272 in 14 places, all below massif's threshold (1.00%)
+     n1: 642328 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 642328 in 18 places, all below massif's threshold (1.00%)
+     n0: 202240 in 2 places, all below massif's threshold (1.00%)
+    n1: 813080 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 813080 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 813080 in 3 places, all below massif's threshold (1.00%)
+    n0: 320 in 2 places, all below massif's threshold (1.00%)
+   n0: 486208 in 60 places, all below massif's threshold (1.00%)
+  n1: 1771962 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 1771962 in 258 places, all below massif's threshold (1.00%)
+  n0: 1256974 in 148 places, all below massif's threshold (1.00%)
+  n1: 823437 0x49DC8B9: _sysmem_new_block (gstallocator.c:434)
+   n0: 823437 in 3 places, all below massif's threshold (1.00%)
+ n2: 6206912 0x294D8D44: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n2: 6019712 0x294D8DAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n0: 5362880 in 1275 places, all below massif's threshold (1.00%)
+   n1: 656832 0x29823319: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n0: 656832 in 154 places, all below massif's threshold (1.00%)
+  n0: 187200 in 21 places, all below massif's threshold (1.00%)
+ n4: 5710570 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2550384 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n1: 1008384 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n0: 1008384 in 35 places, all below massif's threshold (1.00%)
+   n0: 847288 in 26 places, all below massif's threshold (1.00%)
+   n1: 694712 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n1: 694712 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n0: 694712 in 62 places, all below massif's threshold (1.00%)
+  n0: 1218074 in 159 places, all below massif's threshold (1.00%)
+  n2: 1163072 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 115560 in 133 places, all below massif's threshold (1.00%)
+  n1: 779040 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 779040 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 779040 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n1: 779040 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n0: 779040 in 3 places, all below massif's threshold (1.00%)
+ n1: 3631392 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 3631392 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 3631392 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 3631392 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 3631392 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 3631392 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 3631392 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 3631392 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n2: 2723544 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1815696 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1815696 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1815696 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1815696 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1815696 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1815696 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1815696 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 1815696 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n2: 1815696 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x249AB291: ???
+                       n1: 907848 0x2499CDF4: ???
+                        n1: 907848 0x2498C3FE: ???
+                         n1: 907848 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                          n1: 907848 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                           n1: 907848 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                            n1: 907848 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                             n1: 907848 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                   n1: 907848 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                      n1: 907848 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                       n1: 907848 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                        n1: 907848 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                         n1: 907848 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 907848 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 907848 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 907848 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                             n1: 907848 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+         n1: 907848 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                n0: 907848 0x9147A03: clone (clone.S:100)
+ n1: 2959008 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 2959008 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 2959008 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 2959008 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 2959008 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 2959008 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n2: 2959008 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 2219256 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 1479504 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1479504 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1479504 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1479504 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1479504 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1479504 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1479504 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1479504 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n2: 1479504 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x249AB291: ???
+                      n1: 739752 0x2499CDF4: ???
+                       n1: 739752 0x2498C3FE: ???
+                        n1: 739752 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                         n1: 739752 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                          n1: 739752 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                           n1: 739752 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                            n1: 739752 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+                  n1: 739752 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                     n1: 739752 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                      n1: 739752 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                       n1: 739752 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                        n1: 739752 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 739752 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 739752 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 739752 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                            n1: 739752 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+        n1: 739752 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+               n0: 739752 0x9147A03: clone (clone.S:100)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1855867 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 957460 0x87437D2: allocate (qarraydata.h:225)
+   n1: 957460 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n0: 957460 in 56 places, all below massif's threshold (1.00%)
+  n0: 898407 in 82 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 1569280 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 784640 0x2E198A1F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E1987E9: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2E199F9F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n0: 784640 in 2 places, all below massif's threshold (1.00%)
+  n1: 784640 0x2E2B36C7: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E29E478: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2DF9519C: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2D963728: llvm::TargetTransformInfoWrapperPass::getTTI(llvm::Function const&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2D7123B5: llvm::AssumptionCacheTracker::getAssumptionCache(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2D256E7B: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+          n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+           n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n0: 784640 in 2 places, all below massif's threshold (1.00%)
+ n2: 1381992 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n0: 582664 in 3 places, all below massif's threshold (1.00%)
+ n1: 1307025 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1307025 in 42 places, all below massif's threshold (1.00%)
+ n2: 1253142 0xE0C69E4: av_malloc (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+  n1: 1067116 0xE0C6DC1: av_mallocz (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+   n0: 1067116 in 46 places, all below massif's threshold (1.00%)
+  n0: 186026 in 7 places, all below massif's threshold (1.00%)
+ n1: 801728 0x2E298982: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 801728 0x2E29E3D4: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n0: 801728 in 2 places, all below massif's threshold (1.00%)
+ n1: 798720 0x2C53767F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 798720 0x2C52EC28: llvm::PMTopLevelManager::setLastUser(llvm::ArrayRef<llvm::Pass*>, llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 798720 0x2C532D4F: llvm::PMDataManager::add(llvm::Pass*, bool) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 798720 0x2C530CD5: llvm::PMTopLevelManager::schedulePass(llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n0: 798720 in 4 places, all below massif's threshold (1.00%)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 795216 0x2499D338: ???
+      n0: 795216 in 2 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 700608 0x2C8DF571: llvm::createGreedyRegisterAllocator(std::function<bool (llvm::TargetRegisterInfo const&, llvm::TargetRegisterClass const&)>) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 700608 in 2 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n1: 642168 0x2499D338: ???
+       n0: 642168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=75
+#-----------
+time=5294275040
+mem_heap_B=58742755
+mem_heap_extra_B=5390925
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=5309364991
+mem_heap_B=58743480
+mem_heap_extra_B=5390776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=5325605907
+mem_heap_B=58744015
+mem_heap_extra_B=5390865
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=5340260919
+mem_heap_B=58911937
+mem_heap_extra_B=5390575
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=5354835381
+mem_heap_B=58912440
+mem_heap_extra_B=5390888
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=5369402177
+mem_heap_B=58914317
+mem_heap_extra_B=5390971
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=5384192449
+mem_heap_B=58745492
+mem_heap_extra_B=5390844
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=5400911053
+mem_heap_B=58744526
+mem_heap_extra_B=5390882
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=5415481504
+mem_heap_B=58912907
+mem_heap_extra_B=5391501
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=5430903607
+mem_heap_B=58745678
+mem_heap_extra_B=5390986
+mem_stacks_B=0
+heap_tree=detailed
+n20: 58745678 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 15475015 in 3510 places, all below massif's threshold (1.00%)
+ n4: 7191292 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3338360 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2852240 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 2038840 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 1194272 in 14 places, all below massif's threshold (1.00%)
+     n1: 642328 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 642328 in 18 places, all below massif's threshold (1.00%)
+     n0: 202240 in 2 places, all below massif's threshold (1.00%)
+    n1: 813080 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 813080 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 813080 in 3 places, all below massif's threshold (1.00%)
+    n0: 320 in 2 places, all below massif's threshold (1.00%)
+   n0: 486120 in 60 places, all below massif's threshold (1.00%)
+  n1: 1772012 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 1772012 in 258 places, all below massif's threshold (1.00%)
+  n0: 1257134 in 148 places, all below massif's threshold (1.00%)
+  n1: 823786 0x49DC8B9: _sysmem_new_block (gstallocator.c:434)
+   n0: 823786 in 3 places, all below massif's threshold (1.00%)
+ n2: 6206912 0x294D8D44: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n2: 6019712 0x294D8DAD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n0: 5362880 in 1275 places, all below massif's threshold (1.00%)
+   n1: 656832 0x29823319: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n0: 656832 in 154 places, all below massif's threshold (1.00%)
+  n0: 187200 in 21 places, all below massif's threshold (1.00%)
+ n4: 5709978 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2550976 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n1: 1008976 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n0: 1008976 in 35 places, all below massif's threshold (1.00%)
+   n0: 847288 in 26 places, all below massif's threshold (1.00%)
+   n1: 694712 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n1: 694712 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n0: 694712 in 62 places, all below massif's threshold (1.00%)
+  n0: 1216890 in 159 places, all below massif's threshold (1.00%)
+  n2: 1163072 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 115560 in 133 places, all below massif's threshold (1.00%)
+  n1: 779040 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 779040 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 779040 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n1: 779040 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n0: 779040 in 3 places, all below massif's threshold (1.00%)
+ n1: 3631392 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 3631392 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 3631392 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 3631392 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 3631392 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 3631392 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 3631392 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 3631392 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n2: 2723544 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1815696 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1815696 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1815696 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1815696 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1815696 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1815696 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1815696 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 1815696 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n2: 1815696 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x249AB291: ???
+                       n1: 907848 0x2499CDF4: ???
+                        n1: 907848 0x2498C3FE: ???
+                         n1: 907848 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                          n1: 907848 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                           n1: 907848 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                            n1: 907848 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                             n1: 907848 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                   n1: 907848 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                      n1: 907848 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                       n1: 907848 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                        n1: 907848 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                         n1: 907848 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 907848 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 907848 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 907848 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                             n1: 907848 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+         n1: 907848 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                n0: 907848 0x9147A03: clone (clone.S:100)
+ n1: 2959008 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 2959008 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 2959008 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 2959008 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 2959008 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 2959008 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n2: 2959008 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 2219256 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 1479504 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 1479504 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 1479504 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 1479504 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 1479504 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 1479504 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 1479504 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 1479504 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n2: 1479504 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29A7D153: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x2959139F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x294CDE38: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x249AB291: ???
+                      n1: 739752 0x2499CDF4: ???
+                       n1: 739752 0x2498C3FE: ???
+                        n1: 739752 0x28E08E91: QGLXContext::swapBuffers(QPlatformSurface*) (qglxintegration.cpp:637)
+                         n1: 739752 0xA1B02AB: QOpenGLContext::swapBuffers(QSurface*) (qopenglcontext.cpp:1120)
+                          n1: 739752 0x6E03389: QSGRenderThread::syncAndRender(QImage*) (qsgthreadedrenderloop.cpp:870)
+                           n1: 739752 0x6E0685A: QSGRenderThread::run() (qsgthreadedrenderloop.cpp:1043)
+                            n1: 739752 0x86B3B34: QThreadPrivate::start(void*) (qthread_unix.cpp:329)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+                  n1: 739752 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                     n1: 739752 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                      n1: 739752 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                       n1: 739752 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                        n1: 739752 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 739752 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 739752 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 739752 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                            n1: 739752 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+        n1: 739752 0x29CB241A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAC52F: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CAD4A0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CCEF76: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x294DA977: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2952A45A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+               n0: 739752 0x9147A03: clone (clone.S:100)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1856077 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 957282 0x87437D2: allocate (qarraydata.h:225)
+   n1: 957282 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n0: 957282 in 56 places, all below massif's threshold (1.00%)
+  n0: 898795 in 82 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 1569280 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 784640 0x2E198A1F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E1987E9: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2E199F9F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n0: 784640 in 2 places, all below massif's threshold (1.00%)
+  n1: 784640 0x2E2B36C7: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 784640 0x2E29E478: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 784640 0x2DF9519C: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 784640 0x2D963728: llvm::TargetTransformInfoWrapperPass::getTTI(llvm::Function const&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 784640 0x2D7123B5: llvm::AssumptionCacheTracker::getAssumptionCache(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 784640 0x2D256E7B: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+        n1: 784640 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+         n1: 784640 0x2C5342A2: llvm::FPPassManager::runOnModule(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+          n1: 784640 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+           n1: 784640 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 784640 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n0: 784640 in 2 places, all below massif's threshold (1.00%)
+ n2: 1381992 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n0: 582664 in 3 places, all below massif's threshold (1.00%)
+ n1: 1307025 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1307025 in 42 places, all below massif's threshold (1.00%)
+ n2: 1253142 0xE0C69E4: av_malloc (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+  n1: 1067116 0xE0C6DC1: av_mallocz (in /usr/lib/x86_64-linux-gnu/libavutil.so.56.70.100)
+   n0: 1067116 in 46 places, all below massif's threshold (1.00%)
+  n0: 186026 in 7 places, all below massif's threshold (1.00%)
+ n1: 801728 0x2E298982: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 801728 0x2E29E3D4: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n0: 801728 in 2 places, all below massif's threshold (1.00%)
+ n1: 798720 0x2C53767F: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 798720 0x2C52EC28: llvm::PMTopLevelManager::setLastUser(llvm::ArrayRef<llvm::Pass*>, llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 798720 0x2C532D4F: llvm::PMDataManager::add(llvm::Pass*, bool) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 798720 0x2C530CD5: llvm::PMTopLevelManager::schedulePass(llvm::Pass*) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n0: 798720 in 4 places, all below massif's threshold (1.00%)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 795216 0x2499D338: ???
+      n0: 795216 in 2 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 700608 0x2C8DF571: llvm::createGreedyRegisterAllocator(std::function<bool (llvm::TargetRegisterInfo const&, llvm::TargetRegisterClass const&)>) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 700608 in 2 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n1: 642168 0x2499D338: ???
+       n0: 642168 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=85
+#-----------
+time=5446170123
+mem_heap_B=58745254
+mem_heap_extra_B=5390946
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=5461233980
+mem_heap_B=58745461
+mem_heap_extra_B=5390931
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=5477190672
+mem_heap_B=58748400
+mem_heap_extra_B=5390944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=5493641367
+mem_heap_B=58746319
+mem_heap_extra_B=5390769
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=5509301520
+mem_heap_B=58746790
+mem_heap_extra_B=5391002
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=90
+#-----------
+time=5523869263
+mem_heap_B=58913889
+mem_heap_extra_B=5390951
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=91
+#-----------
+time=5538441659
+mem_heap_B=58936180
+mem_heap_extra_B=5393300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=92
+#-----------
+time=5553019389
+mem_heap_B=56251128
+mem_heap_extra_B=5378944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=93
+#-----------
+time=5567589984
+mem_heap_B=43632211
+mem_heap_extra_B=4678373
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=94
+#-----------
+time=5582381881
+mem_heap_B=21574172
+mem_heap_extra_B=2608260
+mem_stacks_B=0
+heap_tree=detailed
+n13: 21574172 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 4962944 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 2560952 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2279032 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1858456 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 650384 in 13 places, all below massif's threshold (1.00%)
+      n2: 543888 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 521568 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n2: 461664 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+         n1: 397008 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+          n1: 397008 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 397008 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 397008 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+             n1: 397008 0x5D2C29B: plugin_init (gstav.c:159)
+              n1: 397008 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 397008 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 397008 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 397008 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 397008 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 397008 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 397008 0x49D86DC: init_post (gst.c:822)
+                     n1: 397008 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 397008 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 397008 0x49D91C7: gst_init (gst.c:455)
+                        n0: 397008 0x10E1B9: main (main.cpp:13)
+         n0: 64656 in 1 place, below massif's threshold (1.00%)
+        n0: 59904 in 1 place, below massif's threshold (1.00%)
+       n0: 22320 in 29 places, all below massif's threshold (1.00%)
+     n1: 642328 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 642328 in 18 places, all below massif's threshold (1.00%)
+     n0: 21856 in 2 places, all below massif's threshold (1.00%)
+    n1: 420576 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 420576 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 419152 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 419152 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 244800 0x4A35032: gst_pad_template_new (gstpadtemplate.c:395)
+         n0: 244800 in 88 places, all below massif's threshold (1.00%)
+        n0: 174352 in 4 places, all below massif's threshold (1.00%)
+      n0: 1424 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n0: 281920 in 60 places, all below massif's threshold (1.00%)
+  n3: 1475677 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 618430 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 317761 in 13 places, all below massif's threshold (1.00%)
+    n2: 300669 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 290501 0x5D3AB06: install_opts (gstavcfg.c:363)
+      n1: 266350 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+       n0: 266350 in 2 places, all below massif's threshold (1.00%)
+      n0: 24151 in 1 place, below massif's threshold (1.00%)
+     n0: 10168 in 29 places, all below massif's threshold (1.00%)
+   n0: 586599 in 256 places, all below massif's threshold (1.00%)
+   n1: 270648 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 270648 in 17 places, all below massif's threshold (1.00%)
+  n0: 679947 in 148 places, all below massif's threshold (1.00%)
+  n2: 246368 0x6953729: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 243872 0x5D3A8CF: install_opts (gstavcfg.c:463)
+    n0: 243872 in 2 places, all below massif's threshold (1.00%)
+   n0: 2496 in 8 places, all below massif's threshold (1.00%)
+ n5: 4622354 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n5: 1832080 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n2: 551584 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 456136 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 456136 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 434232 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 434232 in 606 places, all below massif's threshold (1.00%)
+      n0: 21904 in 3 places, all below massif's threshold (1.00%)
+    n0: 95448 in 34 places, all below massif's threshold (1.00%)
+   n1: 508528 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 508528 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n2: 446960 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n2: 372960 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+       n1: 336848 0x4A080EF: gst_element_class_add_static_pad_template (gstelement.c:1562)
+        n0: 336848 in 785 places, all below massif's threshold (1.00%)
+       n0: 36112 in 66 places, all below massif's threshold (1.00%)
+      n0: 74000 in 105 places, all below massif's threshold (1.00%)
+     n0: 61568 in 61 places, all below massif's threshold (1.00%)
+   n1: 392496 0x4A54B3F: gst_structure_new_valist (gststructure.c:436)
+    n0: 392496 in 3 places, all below massif's threshold (1.00%)
+   n1: 340992 0x49F221E: gst_caps_new_empty_simple (gstcaps.c:313)
+    n0: 340992 in 113 places, all below massif's threshold (1.00%)
+   n0: 38480 in 24 places, all below massif's threshold (1.00%)
+  n2: 1163072 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 115560 in 133 places, all below massif's threshold (1.00%)
+  n1: 778208 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 778208 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 778208 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n3: 778208 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n1: 412528 0x4A54517: gst_structure_id_set_value_internal (gststructure.c:700)
+       n2: 412528 0x4A54517: gst_structure_set_value (gststructure.c:746)
+        n2: 410864 0x49F3459: gst_caps_set_value (gstcaps.c:1118)
+         n1: 349104 0x5D49D2C: gst_ffmpeg_video_set_pix_fmts (gstavcodecmap.c:311)
+          n2: 349104 0x5D49D2C: gst_ffmpeg_codectype_to_video_caps (gstavcodecmap.c:2772)
+           n1: 330576 0x5D36EAB: gst_ffmpegviddec_subclass_init (gstavviddec.c:247)
+            n1: 330576 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 330576 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+              n1: 330576 0x5D3A429: gst_ffmpegviddec_register (gstavviddec.c:2824)
+               n1: 330576 0x5D2C2AB: plugin_init (gstav.c:161)
+                n1: 330576 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+                 n1: 330576 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                  n1: 330576 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                   n1: 330576 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                    n1: 330576 0x49D8662: init_static_plugins (gst.c:637)
+                     n1: 330576 0x49D8662: init_post.part.0 (gst.c:804)
+                      n1: 330576 0x49D86DC: init_post (gst.c:822)
+                       n1: 330576 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 330576 0x49D9136: gst_init_check (gst.c:416)
+                         n1: 330576 0x49D91C7: gst_init (gst.c:455)
+                          n0: 330576 0x10E1B9: main (main.cpp:13)
+           n0: 18528 in 2 places, all below massif's threshold (1.00%)
+         n0: 61760 in 16 places, all below massif's threshold (1.00%)
+        n0: 1664 in 7 places, all below massif's threshold (1.00%)
+      n2: 365680 0x4A53FE0: gst_structure_copy (gststructure.c:508)
+       n2: 361616 0x49F291E: _gst_caps_copy (gstcaps.c:185)
+        n1: 330576 0x5D36EBF: dup_caps_with_alternate (gstavviddec.c:183)
+         n1: 330576 0x5D36EBF: gst_ffmpegviddec_subclass_init (gstavviddec.c:253)
+          n1: 330576 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 330576 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 330576 0x5D3A429: gst_ffmpegviddec_register (gstavviddec.c:2824)
+             n1: 330576 0x5D2C2AB: plugin_init (gstav.c:161)
+              n1: 330576 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 330576 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 330576 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 330576 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 330576 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 330576 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 330576 0x49D86DC: init_post (gst.c:822)
+                     n1: 330576 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 330576 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 330576 0x49D91C7: gst_init (gst.c:455)
+                        n0: 330576 0x10E1B9: main (main.cpp:13)
+        n0: 31040 in 6 places, all below massif's threshold (1.00%)
+       n0: 4064 in 14 places, all below massif's threshold (1.00%)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 555362 in 158 places, all below massif's threshold (1.00%)
+  n2: 293632 0x68E7332: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 292728 0x68F8ACC: g_type_register_static (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 292728 in 71 places, all below massif's threshold (1.00%)
+   n0: 904 in 1 place, below massif's threshold (1.00%)
+ n0: 3932279 in 3526 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n3: 1238360 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n2: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 436736 in 13 places, all below massif's threshold (1.00%)
+   n2: 362592 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n2: 347712 0x5D3AB06: install_opts (gstavcfg.c:363)
+     n2: 307776 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+      n1: 264672 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+       n1: 264672 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 264672 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+         n1: 264672 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+          n1: 264672 0x5D2C29B: plugin_init (gstav.c:159)
+           n1: 264672 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+            n1: 264672 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+             n1: 264672 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+              n1: 264672 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+               n1: 264672 0x49D8662: init_static_plugins (gst.c:637)
+                n1: 264672 0x49D8662: init_post.part.0 (gst.c:804)
+                 n1: 264672 0x49D86DC: init_post (gst.c:822)
+                  n1: 264672 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                   n1: 264672 0x49D9136: gst_init_check (gst.c:416)
+                    n1: 264672 0x49D91C7: gst_init (gst.c:455)
+                     n0: 264672 0x10E1B9: main (main.cpp:13)
+      n0: 43104 in 1 place, below massif's threshold (1.00%)
+     n0: 39936 in 1 place, below massif's threshold (1.00%)
+    n0: 14880 in 29 places, all below massif's threshold (1.00%)
+  n1: 426856 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 426856 in 18 places, all below massif's threshold (1.00%)
+  n0: 12176 in 2 places, all below massif's threshold (1.00%)
+ n2: 1078448 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 754352 in 41 places, all below massif's threshold (1.00%)
+  n2: 324096 0x4A73B00: resize_value_list (gstvalue.c:228)
+   n1: 324096 0x4A80BC7: _gst_value_list_append_val (gstvalue.c:243)
+    n2: 324096 0x4A80BC7: _priv_gst_value_parse_any_list.isra.0 (gstvalue.c:2631)
+     n1: 324096 0x4A80447: _priv_gst_value_parse_array (gstvalue.c:2658)
+      n1: 324096 0x4A80447: _priv_gst_value_parse_value (gstvalue.c:2816)
+       n1: 324096 0x4A573F8: gst_structure_parse_field (gststructure.c:2304)
+        n1: 324096 0x4A573F8: priv_gst_structure_parse_fields (gststructure.c:2392)
+         n1: 324096 0x49F5EF5: gst_caps_from_string_inplace (gstcaps.c:2492)
+          n2: 324096 0x49F5EF5: gst_caps_from_string (gstcaps.c:2531)
+           n2: 322560 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+            n1: 288000 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+             n0: 288000 in 18 places, all below massif's threshold (1.00%)
+            n0: 34560 in 4 places, all below massif's threshold (1.00%)
+           n0: 1536 in 1 place, below massif's threshold (1.00%)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 907848 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 907848 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 907848 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 907848 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 907848 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 907848 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 907848 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 907848 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n2: 907848 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n2: 907848 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                      n1: 907848 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                       n1: 907848 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                        n1: 907848 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                         n1: 907848 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 907848 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 907848 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                            n1: 907848 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                             n1: 907848 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                              n0: 907848 0x90B6AC2: start_thread (pthread_create.c:442)
+                   n0: 0 in 1 place, below massif's threshold (1.00%)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 739752 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 739752 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 739752 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 739752 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 739752 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 739752 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n2: 739752 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n2: 739752 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CA9D28: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CAD652: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x29CD324D: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1D87F6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x29A7ACB5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x29A759A1: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n2: 739752 0x29A7610A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29A7D197: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x297B4D15: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x4D42F80: _default_set_sync_gl (gstglsyncmeta.c:67)
+                     n1: 739752 0x4D22CF0: _do_convert (gstglcolorconvert.c:3806)
+                      n1: 739752 0x4D4F2C6: _run_message_sync (gstglwindow.c:638)
+                       n1: 739752 0x4D4F265: _run_message_async (gstglwindow.c:705)
+                        n1: 739752 0x6972C43: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 739752 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 739752 0x69722B2: g_main_loop_run (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 739752 0x4D2AF4F: gst_gl_context_create_thread (gstglcontext.c:1401)
+                            n1: 739752 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                             n1: 739752 0x90B6AC2: start_thread (pthread_create.c:442)
+                              n0: 739752 0x9147A03: clone (clone.S:100)
+                  n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 415088 0x68FB0C9: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 263296 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 263296 in 14 places, all below massif's threshold (1.00%)
+  n0: 151792 in 3 places, all below massif's threshold (1.00%)
+ n1: 392320 0x2E29E3B2: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n0: 392320 in 2 places, all below massif's threshold (1.00%)
+ n1: 317335 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n0: 317335 in 84 places, all below massif's threshold (1.00%)
+ n1: 265072 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 265072 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 265072 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 265072 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n2: 265072 0x2499D338: ???
+      n1: 265072 0x24987F28: ???
+       n1: 265072 0x2498B3FB: ???
+        n1: 265072 0x2498B760: ???
+         n1: 265072 0x7D9397B: glXCreateContext (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+          n1: 265072 0x4D5B9CD: gst_gl_context_glx_create_context (gstglcontext_glx.c:681)
+           n1: 265072 0x4D2AA07: gst_gl_context_create_thread (gstglcontext.c:1324)
+            n1: 265072 0x69A1AB0: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 265072 0x90B6AC2: start_thread (pthread_create.c:442)
+              n0: 265072 0x9147A03: clone (clone.S:100)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 244772 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 244772 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 244772 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n1: 244772 0x400A600: _dl_map_object (dl-load.c:2327)
+     n0: 244772 in 2 places, all below massif's threshold (1.00%)

@@ -1,0 +1,1498 @@
+desc: (none)
+cmd: ./rtsp-player
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=271278271
+mem_heap_B=1984
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=346216002
+mem_heap_B=5080468
+mem_heap_extra_B=951460
+mem_stacks_B=0
+heap_tree=detailed
+n10: 5080468 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n5: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 248249 0x1A314761: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 248249 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 248249 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 248249 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 248249 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 248249 0x4006567: call_init (dl-init.c:33)
+        n1: 248249 0x4006567: _dl_init (dl-init.c:117)
+         n0: 248249 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 202664 0x1A314793: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 202664 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 202664 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 202664 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 202664 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 202664 0x4006567: call_init (dl-init.c:33)
+        n1: 202664 0x4006567: _dl_init (dl-init.c:117)
+         n0: 202664 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 145037 0x1A314EA2: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 145037 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 145037 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 145037 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 145037 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 145037 0x4006567: call_init (dl-init.c:33)
+        n1: 145037 0x4006567: _dl_init (dl-init.c:117)
+         n0: 145037 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 115137 0x1A314D63: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 115137 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 115137 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 115137 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 115137 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 115137 0x4006567: call_init (dl-init.c:33)
+        n1: 115137 0x4006567: _dl_init (dl-init.c:117)
+         n0: 115137 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 16822 in 10 places, all below massif's threshold (1.00%)
+ n0: 337063 in 231 places, all below massif's threshold (1.00%)
+ n1: 289600 0xB20D991: alloc_pool::add_memory_block() (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+  n2: 289600 0xB20DBD6: alloc_pool::alloc_pool(unsigned long, int, bool) (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+   n1: 256000 0xB20C672: ??? (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+    n1: 256000 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 256000 0x4006567: call_init (dl-init.c:33)
+      n1: 256000 0x4006567: _dl_init (dl-init.c:117)
+       n0: 256000 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+   n0: 33600 in 1 place, below massif's threshold (1.00%)
+ n2: 141824 0x1A523992: ??? (in /usr/lib/x86_64-linux-gnu/libcharls.so.2.3.4)
+  n1: 131072 0x1A523E41: ??? (in /usr/lib/x86_64-linux-gnu/libcharls.so.2.3.4)
+   n1: 131072 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 131072 0x4006567: call_init (dl-init.c:33)
+     n1: 131072 0x4006567: _dl_init (dl-init.c:117)
+      n0: 131072 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 10752 in 3 places, all below massif's threshold (1.00%)
+ n2: 91504 0x1DF333DC: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.2)
+  n1: 72656 0x164AD4E7: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.31.0)
+   n1: 72656 0x1647BCA2: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.31.0)
+    n1: 72656 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 72656 0x4006567: call_init (dl-init.c:33)
+      n1: 72656 0x4006567: _dl_init (dl-init.c:117)
+       n0: 72656 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n0: 18848 in 1 place, below massif's threshold (1.00%)
+ n1: 73728 0x16675479: srt::CUDTUnited::CUDTUnited() (in /usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.4.4)
+  n1: 73728 0x16673942: ??? (in /usr/lib/x86_64-linux-gnu/libsrt-gnutls.so.1.4.4)
+   n1: 73728 0x400647D: call_init.part.0 (dl-init.c:70)
+    n1: 73728 0x4006567: call_init (dl-init.c:33)
+     n1: 73728 0x4006567: _dl_init (dl-init.c:117)
+      n0: 73728 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 72704 0x8EA0939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 65520 0x9067791: __new_exitfn (cxa_atexit.c:114)
+  n1: 65520 0x906790A: __internal_atexit (cxa_atexit.c:44)
+   n1: 65520 0x906790A: __cxa_atexit (cxa_atexit.c:70)
+    n0: 65520 in 59 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=410173706
+mem_heap_B=7497576
+mem_heap_extra_B=1321912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=461353401
+mem_heap_B=9317382
+mem_heap_extra_B=1547186
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=546522574
+mem_heap_B=99447569
+mem_heap_extra_B=1567719
+mem_stacks_B=0
+heap_tree=peak
+n7: 99447569 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 87244800 0x21A1D05A: DelayGrab::DelayGrab(int, int) (in /usr/lib/frei0r-1/delaygrab.so)
+  n1: 87244800 0x21A1D0D7: frei0r::construct<DelayGrab>::build(unsigned int, unsigned int) (in /usr/lib/frei0r-1/delaygrab.so)
+   n1: 87244800 0x21A1CA43: f0r_construct (in /usr/lib/frei0r-1/delaygrab.so)
+    n1: 87244800 0x56180E1: register_plugin (gstfrei0r.c:551)
+     n1: 87244800 0x56180E1: register_plugins (gstfrei0r.c:645)
+      n1: 87244800 0x56183FB: plugin_init (gstfrei0r.c:703)
+       n1: 87244800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+        n1: 87244800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+         n1: 87244800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+          n1: 87244800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+           n1: 87244800 0x49D8662: init_static_plugins (gst.c:637)
+            n1: 87244800 0x49D8662: init_post.part.0 (gst.c:804)
+             n1: 87244800 0x49D86DC: init_post (gst.c:822)
+              n1: 87244800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+               n1: 87244800 0x49D9136: gst_init_check (gst.c:416)
+                n1: 87244800 0x49D91C7: gst_init (gst.c:455)
+                 n0: 87244800 0x10E1B9: main (main.cpp:13)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 3426052 in 363 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1618320 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1618320 in 68 places, all below massif's threshold (1.00%)
+ n1: 1420181 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1420181 in 110 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=631746309
+mem_heap_B=11960475
+mem_heap_extra_B=1572621
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=693874526
+mem_heap_B=13191336
+mem_heap_extra_B=1572816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=759014834
+mem_heap_B=12057314
+mem_heap_extra_B=1586686
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=829174632
+mem_heap_B=22052911
+mem_heap_extra_B=1604753
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=947939728
+mem_heap_B=12243785
+mem_heap_extra_B=1604527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1065899773
+mem_heap_B=14703734
+mem_heap_extra_B=1604690
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1159712102
+mem_heap_B=12599112
+mem_heap_extra_B=1653552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1208030921
+mem_heap_B=13408695
+mem_heap_extra_B=1787577
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1299178066
+mem_heap_B=14727977
+mem_heap_extra_B=1982679
+mem_stacks_B=0
+heap_tree=detailed
+n12: 14727977 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 2755746 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n4: 1382024 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n3: 540200 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 268176 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 268176 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 247160 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 247160 in 595 places, all below massif's threshold (1.00%)
+      n0: 21016 in 3 places, all below massif's threshold (1.00%)
+    n1: 248936 0x4A0CDD7: gst_element_register (gstelementfactory.c:253)
+     n0: 248936 in 601 places, all below massif's threshold (1.00%)
+    n0: 23088 in 12 places, all below massif's threshold (1.00%)
+   n1: 476856 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 476856 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n2: 441632 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n2: 370888 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+       n1: 335368 0x4A080EF: gst_element_class_add_static_pad_template (gstelement.c:1562)
+        n0: 335368 in 780 places, all below massif's threshold (1.00%)
+       n0: 35520 in 64 places, all below massif's threshold (1.00%)
+      n0: 70744 in 102 places, all below massif's threshold (1.00%)
+     n0: 35224 in 56 places, all below massif's threshold (1.00%)
+   n2: 303400 0x4A54B3F: gst_structure_new_valist (gststructure.c:436)
+    n2: 219632 0x4A54C87: gst_structure_new (gststructure.c:391)
+     n1: 198320 0x599A086: gst_decklink_mode_get_generic_structure(GstDecklinkModeEnum) (gstdecklink.cpp:841)
+      n1: 198320 0x599A0A8: gst_decklink_mode_get_structure(GstDecklinkModeEnum, unsigned int, int) (gstdecklink.cpp:857)
+       n1: 198320 0x599B571: gst_decklink_mode_get_caps_all_formats (gstdecklink.cpp:923)
+        n1: 198320 0x599B571: gst_decklink_mode_get_template_caps(int) (gstdecklink.cpp:954)
+         n0: 198320 in 2 places, all below massif's threshold (1.00%)
+     n0: 21312 in 17 places, all below massif's threshold (1.00%)
+    n0: 83768 in 1 place, below massif's threshold (1.00%)
+   n0: 61568 in 14 places, all below massif's threshold (1.00%)
+  n2: 683808 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 592248 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 592248 in 592 places, all below massif's threshold (1.00%)
+   n0: 91560 in 128 places, all below massif's threshold (1.00%)
+  n0: 498890 in 73 places, all below massif's threshold (1.00%)
+  n2: 191024 0x68E7332: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 190408 0x68F8ACC: g_type_register_static (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 190408 in 65 places, all below massif's threshold (1.00%)
+   n0: 616 in 1 place, below massif's threshold (1.00%)
+ n4: 2493972 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 1293456 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 1046640 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n2: 593032 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 390064 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 390064 in 18 places, all below massif's threshold (1.00%)
+     n0: 202968 in 2 places, all below massif's threshold (1.00%)
+    n1: 453608 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 453608 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 229216 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 229216 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 229216 in 5 places, all below massif's threshold (1.00%)
+      n1: 224392 0x68E334C: g_object_new_with_properties (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 224392 0x68E3E50: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 188384 0x4A0CC48: gst_element_register (gstelementfactory.c:238)
+         n0: 188384 in 601 places, all below massif's threshold (1.00%)
+        n0: 36008 in 14 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 246816 in 42 places, all below massif's threshold (1.00%)
+  n3: 612653 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 242752 in 122 places, all below massif's threshold (1.00%)
+   n1: 188332 0x697BE77: g_intern_string (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 188332 0x4A0CE3B: gst_element_register (gstelementfactory.c:265)
+     n0: 188332 in 11 places, all below massif's threshold (1.00%)
+   n1: 181569 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 181569 in 12 places, all below massif's threshold (1.00%)
+  n0: 420255 in 109 places, all below massif's threshold (1.00%)
+  n1: 167608 0x697BBE5: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 167608 in 2 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n0: 972370 in 746 places, all below massif's threshold (1.00%)
+ n3: 907096 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 417624 in 28 places, all below massif's threshold (1.00%)
+  n2: 321792 0x4A73B00: resize_value_list (gstvalue.c:228)
+   n1: 321792 0x4A80BC7: _gst_value_list_append_val (gstvalue.c:243)
+    n1: 321792 0x4A80BC7: _priv_gst_value_parse_any_list.isra.0 (gstvalue.c:2631)
+     n1: 321792 0x4A80447: _priv_gst_value_parse_array (gstvalue.c:2658)
+      n1: 321792 0x4A80447: _priv_gst_value_parse_value (gstvalue.c:2816)
+       n1: 321792 0x4A573F8: gst_structure_parse_field (gststructure.c:2304)
+        n1: 321792 0x4A573F8: priv_gst_structure_parse_fields (gststructure.c:2392)
+         n1: 321792 0x49F5EF5: gst_caps_from_string_inplace (gstcaps.c:2492)
+          n2: 321792 0x49F5EF5: gst_caps_from_string (gstcaps.c:2531)
+           n2: 320256 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+            n2: 285696 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+             n1: 174336 0x4A080EF: gst_element_class_add_static_pad_template (gstelement.c:1562)
+              n0: 174336 in 53 places, all below massif's threshold (1.00%)
+             n0: 111360 in 17 places, all below massif's threshold (1.00%)
+            n0: 34560 in 3 places, all below massif's threshold (1.00%)
+           n0: 1536 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n1: 167680 0x695CCAC: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 167680 0x695D695: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 167680 0x69609CB: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n0: 167680 in 3 places, all below massif's threshold (1.00%)
+ n3: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 276996 in 12 places, all below massif's threshold (1.00%)
+  n1: 248249 0x1A314761: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 248249 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 248249 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 248249 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 248249 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 248249 0x4006567: call_init (dl-init.c:33)
+        n1: 248249 0x4006567: _dl_init (dl-init.c:117)
+         n0: 248249 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+  n1: 202664 0x1A314793: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 202664 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 202664 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 202664 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 202664 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 202664 0x4006567: call_init (dl-init.c:33)
+        n1: 202664 0x4006567: _dl_init (dl-init.c:117)
+         n0: 202664 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 411032 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 260224 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 260224 in 18 places, all below massif's threshold (1.00%)
+  n0: 150808 in 2 places, all below massif's threshold (1.00%)
+ n1: 289600 0xB20D991: alloc_pool::add_memory_block() (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+  n2: 289600 0xB20DBD6: alloc_pool::alloc_pool(unsigned long, int, bool) (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+   n1: 256000 0xB20C672: ??? (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+    n1: 256000 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 256000 0x4006567: call_init (dl-init.c:33)
+      n1: 256000 0x4006567: _dl_init (dl-init.c:117)
+       n0: 256000 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+   n0: 33600 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x53C9365: _dv_init_vlc_encode_lookup (encode.c:428)
+  n1: 262144 0x53BFDC8: dv_init (dv.c:195)
+   n1: 262144 0x53BFDC8: dv_init (dv.c:174)
+    n1: 262144 0x53BFD08: dv_element_init (gstdvelement.c:33)
+     n1: 262144 0x53BF7BC: gst_element_register_dvdemux (gstdvdemux.c:134)
+      n1: 262144 0x53B9B11: plugin_init (gstdv.c:32)
+       n1: 262144 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+        n1: 262144 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+         n1: 262144 0x53B9B92: gst_plugin_dv_register (gstdv.c:38)
+          n1: 262144 0x49CB3D4: gst_init_static_plugins (gstinitstaticplugins.c:343)
+           n1: 262144 0x49D8662: init_static_plugins (gst.c:637)
+            n1: 262144 0x49D8662: init_post.part.0 (gst.c:804)
+             n1: 262144 0x49D86DC: init_post (gst.c:822)
+              n1: 262144 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+               n1: 262144 0x49D9136: gst_init_check (gst.c:416)
+                n1: 262144 0x49D91C7: gst_init (gst.c:455)
+                 n0: 262144 0x10E1B9: main (main.cpp:13)
+ n1: 169892 0x400DA02: calloc (rtld-malloc.h:44)
+  n1: 169892 0x400DA02: _dl_new_object (dl-object.c:92)
+   n1: 169892 0x4008C82: _dl_map_object_from_fd (dl-load.c:1063)
+    n1: 169892 0x400A600: _dl_map_object (dl-load.c:2327)
+     n0: 169892 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=1374953768
+mem_heap_B=15478466
+mem_heap_extra_B=2107070
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1423427963
+mem_heap_B=15782456
+mem_heap_extra_B=2161032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1499151682
+mem_heap_B=16395207
+mem_heap_extra_B=2252697
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1581747094
+mem_heap_B=17078136
+mem_heap_extra_B=2357848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1621768517
+mem_heap_B=17309525
+mem_heap_extra_B=2398843
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1694847976
+mem_heap_B=17798150
+mem_heap_extra_B=2483978
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1792287986
+mem_heap_B=18429716
+mem_heap_extra_B=2593772
+mem_stacks_B=0
+heap_tree=detailed
+n12: 18429716 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 4729470 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 2461664 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2182064 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1674696 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1176632 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 639080 in 12 places, all below massif's threshold (1.00%)
+      n2: 537552 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 515520 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n2: 455760 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+         n1: 391104 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+          n1: 391104 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 391104 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 391104 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+             n1: 391104 0x5D2C29B: plugin_init (gstav.c:159)
+              n1: 391104 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 391104 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 391104 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 391104 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 391104 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 391104 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 391104 0x49D86DC: init_post (gst.c:822)
+                     n1: 391104 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 391104 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 391104 0x49D91C7: gst_init (gst.c:455)
+                        n0: 391104 0x10E1B9: main (main.cpp:13)
+         n0: 64656 in 1 place, below massif's threshold (1.00%)
+        n0: 59760 in 1 place, below massif's threshold (1.00%)
+       n0: 22032 in 28 places, all below massif's threshold (1.00%)
+     n1: 422320 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 422320 in 18 places, all below massif's threshold (1.00%)
+     n0: 75744 in 1 place, below massif's threshold (1.00%)
+    n1: 507368 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 507368 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 259456 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 259456 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 259456 in 5 places, all below massif's threshold (1.00%)
+      n1: 247912 0x68E334C: g_object_new_with_properties (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 247912 0x68E3E50: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 211904 0x4A0CC48: gst_element_register (gstelementfactory.c:238)
+         n0: 211904 in 602 places, all below massif's threshold (1.00%)
+        n0: 36008 in 14 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 279600 in 42 places, all below massif's threshold (1.00%)
+  n2: 1318967 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 708988 in 123 places, all below massif's threshold (1.00%)
+   n2: 609979 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 313033 in 12 places, all below massif's threshold (1.00%)
+    n2: 296946 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 286897 0x5D3AB06: install_opts (gstavcfg.c:363)
+      n2: 262815 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+       n1: 234465 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+        n1: 234465 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+         n1: 234465 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+          n1: 234465 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+           n1: 234465 0x5D2C29B: plugin_init (gstav.c:159)
+            n1: 234465 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+             n1: 234465 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+              n1: 234465 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+               n1: 234465 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                n1: 234465 0x49D8662: init_static_plugins (gst.c:637)
+                 n1: 234465 0x49D8662: init_post.part.0 (gst.c:804)
+                  n1: 234465 0x49D86DC: init_post (gst.c:822)
+                   n1: 234465 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                    n1: 234465 0x49D9136: gst_init_check (gst.c:416)
+                     n1: 234465 0x49D91C7: gst_init (gst.c:455)
+                      n0: 234465 0x10E1B9: main (main.cpp:13)
+       n0: 28350 in 1 place, below massif's threshold (1.00%)
+      n0: 24082 in 1 place, below massif's threshold (1.00%)
+     n0: 10049 in 28 places, all below massif's threshold (1.00%)
+  n0: 701095 in 109 places, all below massif's threshold (1.00%)
+  n2: 247744 0x6953729: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n2: 240928 0x5D3A8CF: install_opts (gstavcfg.c:463)
+    n1: 217376 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+     n0: 217376 in 2 places, all below massif's threshold (1.00%)
+    n0: 23552 in 1 place, below massif's threshold (1.00%)
+   n0: 6816 in 4 places, all below massif's threshold (1.00%)
+ n4: 3062842 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n4: 1530912 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n3: 602064 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 299256 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 299256 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 278240 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 278240 in 596 places, all below massif's threshold (1.00%)
+      n0: 21016 in 3 places, all below massif's threshold (1.00%)
+    n1: 279720 0x4A0CDD7: gst_element_register (gstelementfactory.c:253)
+     n0: 279720 in 602 places, all below massif's threshold (1.00%)
+    n0: 23088 in 12 places, all below massif's threshold (1.00%)
+   n1: 476856 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 476856 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n2: 441632 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n2: 370888 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+       n1: 335368 0x4A080EF: gst_element_class_add_static_pad_template (gstelement.c:1562)
+        n0: 335368 in 780 places, all below massif's threshold (1.00%)
+       n0: 35520 in 64 places, all below massif's threshold (1.00%)
+      n0: 70744 in 102 places, all below massif's threshold (1.00%)
+     n0: 35224 in 56 places, all below massif's threshold (1.00%)
+   n2: 346912 0x4A54B3F: gst_structure_new_valist (gststructure.c:436)
+    n1: 233544 0x4A54C87: gst_structure_new (gststructure.c:391)
+     n0: 233544 in 18 places, all below massif's threshold (1.00%)
+    n0: 113368 in 1 place, below massif's threshold (1.00%)
+   n0: 105080 in 14 places, all below massif's threshold (1.00%)
+  n2: 770224 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 675144 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 675144 in 593 places, all below massif's threshold (1.00%)
+   n0: 95080 in 128 places, all below massif's threshold (1.00%)
+  n0: 546298 in 73 places, all below massif's threshold (1.00%)
+  n2: 215408 0x68E7332: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 214792 0x68F8ACC: g_type_register_static (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 214792 in 66 places, all below massif's threshold (1.00%)
+   n0: 616 in 1 place, below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n3: 1133992 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n2: 787544 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 429176 in 12 places, all below massif's threshold (1.00%)
+   n2: 358368 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n2: 343680 0x5D3AB06: install_opts (gstavcfg.c:363)
+     n2: 303840 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+      n1: 260736 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+       n1: 260736 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 260736 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+         n1: 260736 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+          n1: 260736 0x5D2C29B: plugin_init (gstav.c:159)
+           n1: 260736 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+            n1: 260736 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+             n1: 260736 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+              n1: 260736 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+               n1: 260736 0x49D8662: init_static_plugins (gst.c:637)
+                n1: 260736 0x49D8662: init_post.part.0 (gst.c:804)
+                 n1: 260736 0x49D86DC: init_post (gst.c:822)
+                  n1: 260736 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                   n1: 260736 0x49D9136: gst_init_check (gst.c:416)
+                    n1: 260736 0x49D91C7: gst_init (gst.c:455)
+                     n0: 260736 0x10E1B9: main (main.cpp:13)
+      n0: 43104 in 1 place, below massif's threshold (1.00%)
+     n0: 39840 in 1 place, below massif's threshold (1.00%)
+    n0: 14688 in 28 places, all below massif's threshold (1.00%)
+  n1: 282112 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 282112 in 18 places, all below massif's threshold (1.00%)
+  n0: 64336 in 1 place, below massif's threshold (1.00%)
+ n3: 1099072 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 511296 in 28 places, all below massif's threshold (1.00%)
+  n2: 321792 0x4A73B00: resize_value_list (gstvalue.c:228)
+   n1: 321792 0x4A80BC7: _gst_value_list_append_val (gstvalue.c:243)
+    n1: 321792 0x4A80BC7: _priv_gst_value_parse_any_list.isra.0 (gstvalue.c:2631)
+     n1: 321792 0x4A80447: _priv_gst_value_parse_array (gstvalue.c:2658)
+      n1: 321792 0x4A80447: _priv_gst_value_parse_value (gstvalue.c:2816)
+       n1: 321792 0x4A573F8: gst_structure_parse_field (gststructure.c:2304)
+        n1: 321792 0x4A573F8: priv_gst_structure_parse_fields (gststructure.c:2392)
+         n1: 321792 0x49F5EF5: gst_caps_from_string_inplace (gstcaps.c:2492)
+          n2: 321792 0x49F5EF5: gst_caps_from_string (gstcaps.c:2531)
+           n2: 320256 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+            n1: 285696 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+             n0: 285696 in 18 places, all below massif's threshold (1.00%)
+            n0: 34560 in 3 places, all below massif's threshold (1.00%)
+           n0: 1536 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+  n1: 265984 0x695CCAC: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n1: 265984 0x695D695: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n1: 265984 0x69609CB: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+     n0: 265984 in 3 places, all below massif's threshold (1.00%)
+ n0: 1025831 in 747 places, all below massif's threshold (1.00%)
+ n2: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 479660 in 13 places, all below massif's threshold (1.00%)
+  n1: 248249 0x1A314761: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 248249 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 248249 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 248249 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+      n1: 248249 0x400647D: call_init.part.0 (dl-init.c:70)
+       n1: 248249 0x4006567: call_init (dl-init.c:33)
+        n1: 248249 0x4006567: _dl_init (dl-init.c:117)
+         n0: 248249 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n2: 360640 0x68FB0C9: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 259392 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 259392 in 13 places, all below massif's threshold (1.00%)
+  n0: 101248 in 2 places, all below massif's threshold (1.00%)
+ n1: 289600 0xB20D991: alloc_pool::add_memory_block() (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+  n2: 289600 0xB20DBD6: alloc_pool::alloc_pool(unsigned long, int, bool) (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+   n1: 256000 0xB20C672: ??? (in /usr/lib/x86_64-linux-gnu/libde265.so.0.1.1)
+    n1: 256000 0x400647D: call_init.part.0 (dl-init.c:70)
+     n1: 256000 0x4006567: call_init (dl-init.c:33)
+      n1: 256000 0x4006567: _dl_init (dl-init.c:117)
+       n0: 256000 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+   n0: 33600 in 1 place, below massif's threshold (1.00%)
+ n1: 262144 0x53C9365: _dv_init_vlc_encode_lookup (encode.c:428)
+  n1: 262144 0x53BFDC8: dv_init (dv.c:195)
+   n1: 262144 0x53BFDC8: dv_init (dv.c:174)
+    n1: 262144 0x53BFD08: dv_element_init (gstdvelement.c:33)
+     n1: 262144 0x53BF7BC: gst_element_register_dvdemux (gstdvdemux.c:134)
+      n1: 262144 0x53B9B11: plugin_init (gstdv.c:32)
+       n1: 262144 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+        n1: 262144 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+         n1: 262144 0x53B9B92: gst_plugin_dv_register (gstdv.c:38)
+          n1: 262144 0x49CB3D4: gst_init_static_plugins (gstinitstaticplugins.c:343)
+           n1: 262144 0x49D8662: init_static_plugins (gst.c:637)
+            n1: 262144 0x49D8662: init_post.part.0 (gst.c:804)
+             n1: 262144 0x49D86DC: init_post (gst.c:822)
+              n1: 262144 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+               n1: 262144 0x49D9136: gst_init_check (gst.c:416)
+                n1: 262144 0x49D91C7: gst_init (gst.c:455)
+                 n0: 262144 0x10E1B9: main (main.cpp:13)
+#-----------
+snapshot=22
+#-----------
+time=1889687104
+mem_heap_B=21214756
+mem_heap_extra_B=3286564
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1951754629
+mem_heap_B=21765110
+mem_heap_extra_B=3386466
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2049770325
+mem_heap_B=23270005
+mem_heap_extra_B=3725499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2112818344
+mem_heap_B=25065785
+mem_heap_extra_B=3886319
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2272007566
+mem_heap_B=25064559
+mem_heap_extra_B=3886497
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2369943896
+mem_heap_B=26541908
+mem_heap_extra_B=3986052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2470016075
+mem_heap_B=26595397
+mem_heap_extra_B=4007283
+mem_stacks_B=0
+heap_tree=detailed
+n12: 26595397 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 6068464 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3160248 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2734232 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1942240 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 650384 in 13 places, all below massif's threshold (1.00%)
+      n2: 543888 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 521568 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n2: 461664 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+         n1: 397008 0x5D30F57: gst_ffmpegvidenc_class_init (gstavvidenc.c:187)
+          n1: 397008 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 397008 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 397008 0x5D313CC: gst_ffmpegvidenc_register (gstavvidenc.c:1094)
+             n1: 397008 0x5D2C29B: plugin_init (gstav.c:159)
+              n1: 397008 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 397008 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 397008 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 397008 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 397008 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 397008 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 397008 0x49D86DC: init_post (gst.c:822)
+                     n1: 397008 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 397008 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 397008 0x49D91C7: gst_init (gst.c:455)
+                        n0: 397008 0x10E1B9: main (main.cpp:13)
+         n0: 64656 in 1 place, below massif's threshold (1.00%)
+        n0: 59904 in 1 place, below massif's threshold (1.00%)
+       n0: 22320 in 29 places, all below massif's threshold (1.00%)
+     n1: 632472 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 632472 in 18 places, all below massif's threshold (1.00%)
+     n0: 115496 in 2 places, all below massif's threshold (1.00%)
+    n1: 791992 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n3: 791992 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 419584 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 419584 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 419584 in 5 places, all below massif's threshold (1.00%)
+      n1: 371928 0x68E334C: g_object_new_with_properties (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 371928 0x68E3E50: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n1: 329952 0x4A0CC48: gst_element_register (gstelementfactory.c:238)
+         n0: 329952 in 612 places, all below massif's threshold (1.00%)
+        n0: 41976 in 16 places, all below massif's threshold (1.00%)
+      n0: 480 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 426016 in 43 places, all below massif's threshold (1.00%)
+  n3: 1757370 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 635728 in 148 places, all below massif's threshold (1.00%)
+   n1: 618430 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 618430 in 14 places, all below massif's threshold (1.00%)
+   n1: 503212 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 503212 in 15 places, all below massif's threshold (1.00%)
+  n0: 1150846 in 119 places, all below massif's threshold (1.00%)
+ n4: 5053434 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n5: 2285712 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n3: 988640 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 456136 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 456136 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 434232 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 434232 in 606 places, all below massif's threshold (1.00%)
+      n0: 21904 in 3 places, all below massif's threshold (1.00%)
+    n1: 436008 0x4A0CDD7: gst_element_register (gstelementfactory.c:253)
+     n0: 436008 in 612 places, all below massif's threshold (1.00%)
+    n0: 96496 in 15 places, all below massif's threshold (1.00%)
+   n1: 508232 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 508232 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n2: 446664 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n2: 372960 0x4A34E19: gst_static_pad_template_get (gstpadtemplate.c:316)
+       n1: 336848 0x4A080EF: gst_element_class_add_static_pad_template (gstelement.c:1562)
+        n0: 336848 in 785 places, all below massif's threshold (1.00%)
+       n0: 36112 in 66 places, all below massif's threshold (1.00%)
+      n0: 73704 in 103 places, all below massif's threshold (1.00%)
+     n0: 61568 in 61 places, all below massif's threshold (1.00%)
+   n1: 392200 0x4A54B3F: gst_structure_new_valist (gststructure.c:436)
+    n0: 392200 in 2 places, all below massif's threshold (1.00%)
+   n1: 355496 0x49F221E: gst_caps_new_empty_simple (gstcaps.c:313)
+    n0: 355496 in 108 places, all below massif's threshold (1.00%)
+   n0: 41144 in 17 places, all below massif's threshold (1.00%)
+  n2: 1151872 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 104360 in 133 places, all below massif's threshold (1.00%)
+  n0: 837226 in 95 places, all below massif's threshold (1.00%)
+  n1: 778624 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 778624 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 778624 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n3: 778624 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n1: 412528 0x4A54517: gst_structure_id_set_value_internal (gststructure.c:700)
+       n2: 412528 0x4A54517: gst_structure_set_value (gststructure.c:746)
+        n2: 410864 0x49F3459: gst_caps_set_value (gstcaps.c:1118)
+         n1: 349104 0x5D49D2C: gst_ffmpeg_video_set_pix_fmts (gstavcodecmap.c:311)
+          n2: 349104 0x5D49D2C: gst_ffmpeg_codectype_to_video_caps (gstavcodecmap.c:2772)
+           n1: 330576 0x5D36EAB: gst_ffmpegviddec_subclass_init (gstavviddec.c:247)
+            n1: 330576 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+             n1: 330576 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+              n1: 330576 0x5D3A429: gst_ffmpegviddec_register (gstavviddec.c:2824)
+               n1: 330576 0x5D2C2AB: plugin_init (gstav.c:161)
+                n1: 330576 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+                 n1: 330576 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                  n1: 330576 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                   n1: 330576 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                    n1: 330576 0x49D8662: init_static_plugins (gst.c:637)
+                     n1: 330576 0x49D8662: init_post.part.0 (gst.c:804)
+                      n1: 330576 0x49D86DC: init_post (gst.c:822)
+                       n1: 330576 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 330576 0x49D9136: gst_init_check (gst.c:416)
+                         n1: 330576 0x49D91C7: gst_init (gst.c:455)
+                          n0: 330576 0x10E1B9: main (main.cpp:13)
+           n0: 18528 in 2 places, all below massif's threshold (1.00%)
+         n0: 61760 in 16 places, all below massif's threshold (1.00%)
+        n0: 1664 in 4 places, all below massif's threshold (1.00%)
+      n2: 365680 0x4A53FE0: gst_structure_copy (gststructure.c:508)
+       n2: 361616 0x49F291E: _gst_caps_copy (gstcaps.c:185)
+        n1: 330576 0x5D36EBF: dup_caps_with_alternate (gstavviddec.c:183)
+         n1: 330576 0x5D36EBF: gst_ffmpegviddec_subclass_init (gstavviddec.c:253)
+          n1: 330576 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+           n1: 330576 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+            n1: 330576 0x5D3A429: gst_ffmpegviddec_register (gstavviddec.c:2824)
+             n1: 330576 0x5D2C2AB: plugin_init (gstav.c:161)
+              n1: 330576 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+               n1: 330576 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+                n1: 330576 0x5D2C472: gst_plugin_libav_register (gstav.c:171)
+                 n1: 330576 0x49CB622: gst_init_static_plugins (gstinitstaticplugins.c:461)
+                  n1: 330576 0x49D8662: init_static_plugins (gst.c:637)
+                   n1: 330576 0x49D8662: init_post.part.0 (gst.c:804)
+                    n1: 330576 0x49D86DC: init_post (gst.c:822)
+                     n1: 330576 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                      n1: 330576 0x49D9136: gst_init_check (gst.c:416)
+                       n1: 330576 0x49D91C7: gst_init (gst.c:455)
+                        n0: 330576 0x10E1B9: main (main.cpp:13)
+        n0: 31040 in 4 places, all below massif's threshold (1.00%)
+       n0: 4064 in 8 places, all below massif's threshold (1.00%)
+      n0: 416 in 1 place, below massif's threshold (1.00%)
+ n0: 4835933 in 2432 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n3: 1311312 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n2: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 436736 in 13 places, all below massif's threshold (1.00%)
+   n2: 362592 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n2: 347712 0x5D3AB06: install_opts (gstavcfg.c:363)
+     n1: 307776 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+      n0: 307776 in 2 places, all below massif's threshold (1.00%)
+     n0: 39936 in 1 place, below massif's threshold (1.00%)
+    n0: 14880 in 29 places, all below massif's threshold (1.00%)
+  n1: 420360 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 420360 in 18 places, all below massif's threshold (1.00%)
+  n0: 91624 in 2 places, all below massif's threshold (1.00%)
+ n2: 1219216 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 894352 in 29 places, all below massif's threshold (1.00%)
+  n2: 324864 0x4A73B00: resize_value_list (gstvalue.c:228)
+   n1: 324864 0x4A80BC7: _gst_value_list_append_val (gstvalue.c:243)
+    n2: 324864 0x4A80BC7: _priv_gst_value_parse_any_list.isra.0 (gstvalue.c:2631)
+     n1: 324096 0x4A80447: _priv_gst_value_parse_array (gstvalue.c:2658)
+      n1: 324096 0x4A80447: _priv_gst_value_parse_value (gstvalue.c:2816)
+       n1: 324096 0x4A573F8: gst_structure_parse_field (gststructure.c:2304)
+        n1: 324096 0x4A573F8: priv_gst_structure_parse_fields (gststructure.c:2392)
+         n1: 324096 0x49F5EF5: gst_caps_from_string_inplace (gstcaps.c:2492)
+          n2: 324096 0x49F5EF5: gst_caps_from_string (gstcaps.c:2531)
+           n1: 322560 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+            n0: 322560 in 4 places, all below massif's threshold (1.00%)
+           n0: 1536 in 1 place, below massif's threshold (1.00%)
+     n0: 768 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 844737 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n0: 844737 in 60 places, all below massif's threshold (1.00%)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 423120 0x68FB0C9: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n0: 423120 in 4 places, all below massif's threshold (1.00%)
+ n1: 373056 0x24987802: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+  n0: 373056 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=2550119089
+mem_heap_B=27385668
+mem_heap_extra_B=4147132
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2649953459
+mem_heap_B=30138230
+mem_heap_extra_B=4952442
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2709891848
+mem_heap_B=28746380
+mem_heap_extra_B=4501332
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2999159026
+mem_heap_B=29247553
+mem_heap_extra_B=4504287
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=3022052915
+mem_heap_B=28764908
+mem_heap_extra_B=4504452
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=3328487191
+mem_heap_B=28780770
+mem_heap_extra_B=4509134
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=3348483912
+mem_heap_B=29398007
+mem_heap_extra_B=4575049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=3637280446
+mem_heap_B=29894259
+mem_heap_extra_B=4575485
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3660150612
+mem_heap_B=29411531
+mem_heap_extra_B=4575629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3952452776
+mem_heap_B=29936115
+mem_heap_extra_B=4582669
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=4015319458
+mem_heap_B=30626647
+mem_heap_extra_B=4612601
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=4055383661
+mem_heap_B=30626647
+mem_heap_extra_B=4612601
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=4116045349
+mem_heap_B=35530331
+mem_heap_extra_B=4691381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=4173711827
+mem_heap_B=36726083
+mem_heap_extra_B=4695061
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=4424114767
+mem_heap_B=36748435
+mem_heap_extra_B=4695493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=4446984957
+mem_heap_B=36265662
+mem_heap_extra_B=4695554
+mem_stacks_B=0
+heap_tree=detailed
+n15: 36265662 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 10790918 in 3312 places, all below massif's threshold (1.00%)
+ n3: 6075133 0x697B738: g_malloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n2: 3166352 0x6992B74: g_slice_alloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n3: 2738048 0x69931DD: g_slice_alloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+    n3: 1945928 0x68FAFF4: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 1194272 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 650384 in 13 places, all below massif's threshold (1.00%)
+      n2: 543888 0x68DEDDD: g_param_spec_int (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n2: 521568 0x5D3AB06: install_opts (gstavcfg.c:363)
+        n1: 461664 0x5D3B8E0: gst_ffmpeg_cfg_install_properties (gstavcfg.c:488)
+         n0: 461664 in 2 places, all below massif's threshold (1.00%)
+        n0: 59904 in 1 place, below massif's threshold (1.00%)
+       n0: 22320 in 29 places, all below massif's threshold (1.00%)
+     n1: 632472 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n0: 632472 in 18 places, all below massif's threshold (1.00%)
+     n0: 119184 in 2 places, all below massif's threshold (1.00%)
+    n1: 792120 0x68FAF21: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n2: 792120 0x68E20EC: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 419584 0x68E38F7: g_object_new_valist (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+       n1: 419584 0x68E3E2C: g_object_new (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+        n0: 419584 in 5 places, all below massif's threshold (1.00%)
+      n0: 372536 in 2 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 428304 in 43 places, all below massif's threshold (1.00%)
+  n3: 1756956 0x6990583: g_strdup (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+   n0: 636216 in 152 places, all below massif's threshold (1.00%)
+   n1: 618430 0x68DC307: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 618430 in 14 places, all below massif's threshold (1.00%)
+   n1: 502310 0x68FCD77: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+    n0: 502310 in 15 places, all below massif's threshold (1.00%)
+  n0: 1151825 in 121 places, all below massif's threshold (1.00%)
+ n4: 5079718 0x697BC50: g_malloc0 (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n3: 2287920 0x4A52C97: gst_structure_new_id_empty_with_size (gststructure.c:281)
+   n3: 989368 0x4A53F9A: gst_structure_copy (gststructure.c:500)
+    n1: 456136 0x4A05AA2: gst_element_base_class_init (gstelement.c:297)
+     n2: 456136 0x68FAAA4: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+      n1: 434232 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+       n0: 434232 in 606 places, all below massif's threshold (1.00%)
+      n0: 21904 in 3 places, all below massif's threshold (1.00%)
+    n1: 436008 0x4A0CDD7: gst_element_register (gstelementfactory.c:253)
+     n0: 436008 in 612 places, all below massif's threshold (1.00%)
+    n0: 97224 in 19 places, all below massif's threshold (1.00%)
+   n0: 790320 in 19 places, all below massif's threshold (1.00%)
+   n1: 508232 0x49F5EBB: gst_caps_from_string_inplace (gstcaps.c:2446)
+    n2: 508232 0x49F5EBB: gst_caps_from_string (gstcaps.c:2531)
+     n1: 446664 0x49F6101: gst_static_caps_get (gstcaps.c:438)
+      n0: 446664 in 104 places, all below massif's threshold (1.00%)
+     n0: 61568 in 61 places, all below massif's threshold (1.00%)
+  n2: 1156336 0x68FAD31: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n1: 1047512 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+    n0: 1047512 in 603 places, all below massif's threshold (1.00%)
+   n0: 108824 in 133 places, all below massif's threshold (1.00%)
+  n0: 857254 in 102 places, all below massif's threshold (1.00%)
+  n1: 778208 0x4A7D826: _gst_value_list_new (gstvalue.c:275)
+   n1: 778208 0x4A7D826: copy_gst_value_list (gstvalue.c:547)
+    n1: 778208 0x4A7C03C: gst_value_copy_list_or_array (gstvalue.c:560)
+     n2: 778208 0x4A7C03C: gst_value_init_and_copy (gstvalue.c:6648)
+      n1: 412528 0x4A54517: gst_structure_id_set_value_internal (gststructure.c:700)
+       n2: 412528 0x4A54517: gst_structure_set_value (gststructure.c:746)
+        n1: 410864 0x49F3459: gst_caps_set_value (gstcaps.c:1118)
+         n0: 410864 in 17 places, all below massif's threshold (1.00%)
+        n0: 1664 in 5 places, all below massif's threshold (1.00%)
+      n0: 365680 in 2 places, all below massif's threshold (1.00%)
+ n2: 2457600 0x213F94B6: f0r_construct (in /usr/lib/frei0r-1/rgbparade.so)
+  n1: 1228800 0x56180E1: register_plugin (gstfrei0r.c:551)
+   n1: 1228800 0x56180E1: register_plugins (gstfrei0r.c:645)
+    n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+     n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+      n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+       n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+        n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+         n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+          n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+           n1: 1228800 0x49D86DC: init_post (gst.c:822)
+            n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+             n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+              n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+               n0: 1228800 0x10E1B9: main (main.cpp:13)
+  n1: 1228800 0x5618564: gst_frei0r_klass_install_properties (gstfrei0r.c:65)
+   n1: 1228800 0x5619A63: gst_frei0r_filter_class_init (gstfrei0rfilter.c:212)
+    n1: 1228800 0x68FABE7: g_type_class_ref (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+     n1: 1228800 0x4A0CCCF: gst_element_register (gstelementfactory.c:245)
+      n1: 1228800 0x5619CF1: gst_frei0r_filter_register (gstfrei0rfilter.c:293)
+       n1: 1228800 0x5618149: register_plugin (gstfrei0r.c:562)
+        n1: 1228800 0x5618149: register_plugins (gstfrei0r.c:645)
+         n1: 1228800 0x56183FB: plugin_init (gstfrei0r.c:703)
+          n1: 1228800 0x4A394F4: gst_plugin_register_func (gstplugin.c:540)
+           n1: 1228800 0x4A3A9ED: gst_plugin_register_static (gstplugin.c:235)
+            n1: 1228800 0x56192D2: gst_plugin_frei0r_register (gstfrei0r.c:716)
+             n1: 1228800 0x49CB46F: gst_init_static_plugins (gstinitstaticplugins.c:374)
+              n1: 1228800 0x49D8662: init_static_plugins (gst.c:637)
+               n1: 1228800 0x49D8662: init_post.part.0 (gst.c:804)
+                n1: 1228800 0x49D86DC: init_post (gst.c:822)
+                 n1: 1228800 0x6980A47: g_option_context_parse (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                  n1: 1228800 0x49D9136: gst_init_check (gst.c:416)
+                   n1: 1228800 0x49D91C7: gst_init (gst.c:455)
+                    n0: 1228800 0x10E1B9: main (main.cpp:13)
+ n2: 1794288 0x86C082C: QArrayData::allocate(unsigned long, unsigned long, unsigned long, QFlags<QArrayData::AllocationOption>) (qarraydata.cpp:218)
+  n1: 954184 0x87437D2: allocate (qarraydata.h:225)
+   n2: 954184 0x87437D2: QString::QString(int, Qt::Initialization) (qstring.cpp:2168)
+    n1: 521496 0x88FCE4C: QUtf8::convertToUnicode(char const*, int) (qutfcodec.cpp:483)
+     n1: 521496 0x87477FD: QString::fromUtf8_helper(char const*, int) (qstring.cpp:5590)
+      n0: 521496 in 71 places, all below massif's threshold (1.00%)
+    n0: 432688 in 54 places, all below massif's threshold (1.00%)
+  n0: 840104 in 77 places, all below massif's threshold (1.00%)
+ n1: 1650720 0x1A314993: gdcm::Dict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1650720 0x1A316F5C: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1650720 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1650720 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1650720 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1650720 0x4006567: call_init (dl-init.c:33)
+       n1: 1650720 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1650720 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 1629896 0x1A314E71: gdcm::PrivateDict::LoadDefault() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n1: 1629896 0x1A316F65: gdcm::Dicts::LoadDefaults() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+   n1: 1629896 0x1A317048: gdcm::Global::Global() (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+    n1: 1629896 0x1A311CBC: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+     n1: 1629896 0x400647D: call_init.part.0 (dl-init.c:70)
+      n1: 1629896 0x4006567: call_init (dl-init.c:33)
+       n1: 1629896 0x4006567: _dl_init (dl-init.c:117)
+        n0: 1629896 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n3: 1314088 0x68FB05D: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n1: 799328 0x68DC1C1: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 799328 in 14 places, all below massif's threshold (1.00%)
+  n1: 420360 0x68DC2AF: g_param_spec_internal (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+   n0: 420360 in 18 places, all below massif's threshold (1.00%)
+  n0: 94400 in 2 places, all below massif's threshold (1.00%)
+ n1: 1236536 0x697BD7F: g_realloc (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+  n0: 1236536 in 31 places, all below massif's threshold (1.00%)
+ n1: 907848 0x2C6EDB33: llvm::LiveIntervalUnion::Array::init(llvm::RecyclingAllocator<llvm::BumpPtrAllocatorImpl<llvm::MallocAllocator, 4096ul, 4096ul, 128ul>, char, 192ul, 64ul>&, unsigned int) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 907848 0x2C6FD534: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 907848 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 907848 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 907848 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 907848 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+       n1: 907848 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n1: 907848 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 907848 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 907848 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 907848 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 907848 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 907848 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 907848 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 907848 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 907848 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 907848 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 907848 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 907848 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 907848 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 907848 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 907848 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 907848 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 907848 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 907848 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                          n1: 907848 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                           n1: 907848 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                            n1: 907848 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                             n1: 907848 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                              n1: 907848 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                               n0: 907848 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+ n1: 795216 0x295828B9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 795216 0x29590E2E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 795216 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 795216 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n2: 795216 0x2499D338: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+      n1: 530144 0x24987120: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 530144 0x7D93A83: ??? (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+        n1: 530144 0x28E0A8EF: QGLXContext::init(QXcbScreen*, QPlatformOpenGLContext*) (qglxintegration.cpp:358)
+         n1: 530144 0x28E08166: QXcbGlxIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbglxintegration.cpp:191)
+          n1: 530144 0x246402B1: QXcbIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbintegration.cpp:283)
+           n2: 530144 0xA1B3D6C: QOpenGLContext::create() (qopenglcontext.cpp:612)
+            n1: 530144 0x6E05BD3: QSGThreadedRenderLoop::handleExposure(QQuickWindow*) (qsgthreadedrenderloop.cpp:1337)
+             n1: 530144 0x6E05EFF: QSGThreadedRenderLoop::exposureChanged(QQuickWindow*) (qsgthreadedrenderloop.cpp:1269)
+              n1: 530144 0xA17A63A: QWindow::event(QEvent*) (qwindow.cpp:2438)
+               n1: 530144 0x6E653B8: QQuickWindow::event(QEvent*) (qquickwindow.cpp:1902)
+                n1: 530144 0x756343B: QApplicationPrivate::notify_helper(QObject*, QEvent*) (qapplication.cpp:3632)
+                 n1: 530144 0x7569F1F: QApplication::notify(QObject*, QEvent*) (qapplication.cpp:3378)
+                  n1: 530144 0x889D807: QCoreApplication::notifyInternal2(QObject*, QEvent*) (qcoreapplication.cpp:1063)
+                   n1: 530144 0xA1707AE: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (qguiapplication.cpp:3258)
+                    n1: 530144 0xA1709EC: QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) (qguiapplication.cpp:2070)
+                     n1: 530144 0xA14C8AA: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qwindowsysteminterface.cpp:1169)
+                      n1: 530144 0x24665699: xcbSourceDispatch(_GSource*, int (*)(void*), void*) (qxcbeventdispatcher.cpp:105)
+                       n1: 530144 0x6972D3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                        n1: 530144 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 530144 0x69703E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 530144 0x88F91CB: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qeventdispatcher_glib.cpp:423)
+                           n1: 530144 0x889C219: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (qeventloop.cpp:232)
+                            n1: 530144 0x88A51D2: QCoreApplication::exec() (qcoreapplication.cpp:1371)
+                             n0: 530144 0x10E369: main (main.cpp:28)
+            n0: 0 in 1 place, below massif's threshold (1.00%)
+      n0: 265072 in 1 place, below massif's threshold (1.00%)
+ n1: 739752 0x2C6FD436: llvm::LiveRegMatrix::runOnMachineFunction(llvm::MachineFunction&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+  n1: 739752 0x2C77FF4B: llvm::MachineFunctionPass::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+   n1: 739752 0x2C52CCE1: llvm::FPPassManager::runOnFunction(llvm::Function&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+    n1: 739752 0x2D764701: ??? (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+     n1: 739752 0x2C52D885: llvm::legacy::PassManagerImpl::run(llvm::Module&) (in /usr/lib/x86_64-linux-gnu/libLLVM-15.so.1)
+      n1: 739752 0x29D885C9: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+       n1: 739752 0x29CB01A7: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+        n1: 739752 0x29CA64B0: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+         n1: 739752 0x29CAD5F8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+          n1: 739752 0x29CCEECD: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+           n1: 739752 0x29CD33A6: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+            n1: 739752 0x2A1D8887: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+             n1: 739752 0x2A1E71FE: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+              n1: 739752 0x2A1D7E48: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+               n1: 739752 0x2A0A14EF: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                n1: 739752 0x2A0A1D8C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                 n1: 739752 0x2A0A4905: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                  n1: 739752 0x29D0837A: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                   n1: 739752 0x29CDD454: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                    n1: 739752 0x2A0A9F43: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                     n1: 739752 0x2957CE2C: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                      n1: 739752 0x2954F86E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                       n1: 739752 0x29553348: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                        n1: 739752 0x295599C8: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+                         n1: 739752 0x6DBD155: glTexSubImage2D (qopenglfunctions.h:1082)
+                          n1: 739752 0x6DBD155: QSGOpenGLAtlasTexture::Atlas::uploadBgra(QSGOpenGLAtlasTexture::Texture*) (qsgopenglatlastexture.cpp:432)
+                           n1: 739752 0x6DBD6D1: QSGOpenGLAtlasTexture::Atlas::uploadPendingTexture(int) (qsgopenglatlastexture.cpp:493)
+                            n1: 739752 0x6DBDB31: QSGOpenGLAtlasTexture::AtlasBase::bind(QSGTexture::Filtering) (qsgopenglatlastexture.cpp:263)
+                             n1: 739752 0x6DBA0B5: QSGOpaqueTextureMaterialShader::updateState(QSGMaterialShader::RenderState const&, QSGMaterial*, QSGMaterial*) (qsgtexturematerial.cpp:112)
+                              n1: 739752 0x6D9F5F8: QSGBatchRenderer::Renderer::renderMergedBatch(QSGBatchRenderer::Batch const*) (qsgbatchrenderer.cpp:3097)
+                               n0: 739752 0x6DA2FF4: QSGBatchRenderer::Renderer::renderBatches() (qsgbatchrenderer.cpp:4066)
+ n1: 727909 0x1A31253C: ??? (in /usr/lib/x86_64-linux-gnu/libgdcmDICT.so.3.0.10)
+  n0: 727909 in 14 places, all below massif's threshold (1.00%)
+ n1: 642168 0x29A7F34E: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+  n1: 642168 0x29CA0874: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+   n1: 642168 0x29590DD5: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+    n1: 642168 0x294CCC19: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+     n1: 642168 0x294D0660: ??? (in /usr/lib/x86_64-linux-gnu/dri/radeonsi_dri.so)
+      n2: 642168 0x2499D338: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+       n1: 428112 0x24987120: ??? (in /usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0)
+        n1: 428112 0x7D93A83: ??? (in /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0)
+         n1: 428112 0x28E0A8EF: QGLXContext::init(QXcbScreen*, QPlatformOpenGLContext*) (qglxintegration.cpp:358)
+          n1: 428112 0x28E08166: QXcbGlxIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbglxintegration.cpp:191)
+           n1: 428112 0x246402B1: QXcbIntegration::createPlatformOpenGLContext(QOpenGLContext*) const (qxcbintegration.cpp:283)
+            n2: 428112 0xA1B3D6C: QOpenGLContext::create() (qopenglcontext.cpp:612)
+             n1: 428112 0x6E05BD3: QSGThreadedRenderLoop::handleExposure(QQuickWindow*) (qsgthreadedrenderloop.cpp:1337)
+              n1: 428112 0x6E05EFF: QSGThreadedRenderLoop::exposureChanged(QQuickWindow*) (qsgthreadedrenderloop.cpp:1269)
+               n1: 428112 0xA17A63A: QWindow::event(QEvent*) (qwindow.cpp:2438)
+                n1: 428112 0x6E653B8: QQuickWindow::event(QEvent*) (qquickwindow.cpp:1902)
+                 n1: 428112 0x756343B: QApplicationPrivate::notify_helper(QObject*, QEvent*) (qapplication.cpp:3632)
+                  n1: 428112 0x7569F1F: QApplication::notify(QObject*, QEvent*) (qapplication.cpp:3378)
+                   n1: 428112 0x889D807: QCoreApplication::notifyInternal2(QObject*, QEvent*) (qcoreapplication.cpp:1063)
+                    n1: 428112 0xA1707AE: QGuiApplicationPrivate::processExposeEvent(QWindowSystemInterfacePrivate::ExposeEvent*) (qguiapplication.cpp:3258)
+                     n1: 428112 0xA1709EC: QGuiApplicationPrivate::processWindowSystemEvent(QWindowSystemInterfacePrivate::WindowSystemEvent*) (qguiapplication.cpp:2070)
+                      n1: 428112 0xA14C8AA: QWindowSystemInterface::sendWindowSystemEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qwindowsysteminterface.cpp:1169)
+                       n1: 428112 0x24665699: xcbSourceDispatch(_GSource*, int (*)(void*), void*) (qxcbeventdispatcher.cpp:105)
+                        n1: 428112 0x6972D3A: g_main_context_dispatch (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                         n1: 428112 0x69C82B7: ??? (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                          n1: 428112 0x69703E2: g_main_context_iteration (in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7200.4)
+                           n1: 428112 0x88F91CB: QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) (qeventdispatcher_glib.cpp:423)
+                            n1: 428112 0x889C219: QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) (qeventloop.cpp:232)
+                             n1: 428112 0x88A51D2: QCoreApplication::exec() (qcoreapplication.cpp:1371)
+                              n0: 428112 0x10E369: main (main.cpp:28)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 214056 in 1 place, below massif's threshold (1.00%)
+ n1: 423872 0x68FB0C9: g_type_create_instance (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7200.4)
+  n0: 423872 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=45
+#-----------
+time=4755510422
+mem_heap_B=36381772
+mem_heap_extra_B=4703004
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=4815408108
+mem_heap_B=40860661
+mem_heap_extra_B=4806307
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=4900057657
+mem_heap_B=52468613
+mem_heap_extra_B=5327947
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=4960029401
+mem_heap_B=58537635
+mem_heap_extra_B=5383125
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=5042906165
+mem_heap_B=58495179
+mem_heap_extra_B=5394053
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=5062932033
+mem_heap_B=54999098
+mem_heap_extra_B=5316174
+mem_stacks_B=0
+heap_tree=empty

@@ -162,7 +162,7 @@ VideoItem::VideoItem(QQuickItem *parent)
     : QQuickItem(parent), m_videoPipe(new VideoItemPrivate())
 {
     createPipeline();
-//    gst_bus_set_sync_handler(m_videoPipe->bus, messageHandler, m_videoPipe.data(), nullptr);
+    // gst_bus_set_sync_handler(m_videoPipe->bus, messageHandler, m_videoPipe.data(), nullptr);
     g_signal_connect(m_videoPipe->videoDecode, "pad-added", G_CALLBACK(video_pad_added_handler), m_videoPipe->flip);
     g_signal_connect(m_videoPipe->src, "pad-added", G_CALLBACK(video_pad_added_handler), m_videoPipe->videoDecode);
     gst_element_set_state(m_videoPipe->pipeline, GST_STATE_READY);
@@ -178,29 +178,16 @@ void VideoItem::close()
 {
     // Stop the pipeline
     gst_element_set_state(m_videoPipe->pipeline, GST_STATE_NULL);
-
+    g_signal_handlers_disconnect_by_func(GST_ELEMENT(m_videoPipe->src),gpointer(video_pad_added_handler), m_videoPipe->videoDecode);
+    g_signal_handlers_disconnect_by_func(GST_ELEMENT(m_videoPipe->videoDecode),gpointer(video_pad_added_handler), m_videoPipe->flip);
     // Remove the bus sync handler
     gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
 
-    // // Unref the pipeline and its elements
-    // gst_object_unref(m_videoPipe->pipeline);
-
-    // // Unref the bus
-    // gst_object_unref(m_videoPipe->bus);
     gst_element_set_state(GST_ELEMENT(m_videoPipe->pipeline),GST_STATE_NULL);
-    GstElement *bin=(GstElement *)gst_element_get_parent(m_videoPipe->videoSink);
-    if(bin){
-        gst_bin_remove(GST_BIN(bin),GST_ELEMENT(m_videoPipe->videoSink));
-    }
     gst_object_unref(GST_OBJECT(m_videoPipe->pipeline));
     gst_object_unref(GST_OBJECT(m_videoPipe->bus));
-    // Reset pointers
-    // delete m_videoPipe->pipeline;
-    // delete m_videoPipe->src;
-    // delete m_videoPipe->videoDecode;
-    // delete m_videoPipe->flip;
-    // delete m_videoPipe->videoSink;
-    m_videoPipe.reset();
+   // QQuickItem *videoItem = findChild<QQuickItem *>("videoItem");
+    //delete videoItem;
     qDebug()<<"REFS";
 }
 
@@ -247,7 +234,7 @@ void VideoItem::setSource(QString source)
         m_videoPipe->source = source;
         gst_element_set_state(m_videoPipe->pipeline, GST_STATE_NULL);
         gst_element_set_state(m_videoPipe->pipeline, GST_STATE_READY);
-        g_object_set(m_videoPipe->src, "location", source.toStdString().c_str(), nullptr);
+        g_object_set(m_videoPipe->src, "location", QString(source).toStdString().c_str(), nullptr);
         play();
     }
 }
@@ -315,7 +302,7 @@ void VideoItem::createPipeline()
     m_videoPipe->bus  = gst_pipeline_get_bus(GST_PIPELINE(m_videoPipe->pipeline));
     g_object_set(m_videoPipe->videoSink, "sink", fakesink, nullptr);
     g_object_set (G_OBJECT (m_videoPipe->videoSink), "sync", FALSE, NULL);
-    g_object_set (G_OBJECT (m_videoPipe->videoSink), "async", TRUE, NULL);//10.3.1.183
+    g_object_set (G_OBJECT (m_videoPipe->videoSink), "async", TRUE, NULL);
 
     gst_bin_add_many(GST_BIN(m_videoPipe->pipeline), m_videoPipe->src, m_videoPipe->videoDecode, m_videoPipe->flip,/*gload,*/ m_videoPipe->videoSink, nullptr);
 
