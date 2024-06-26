@@ -49,6 +49,7 @@ private:
         GstElement  *flip { nullptr };
         GstElement *gload { nullptr };
         GstElement *videoSink { nullptr };
+        GstElement *glSink {nullptr};
 
         GstBus *bus { nullptr };
 
