@@ -41,7 +41,7 @@ private:
     struct VideoItemPrivate {
         explicit VideoItemPrivate()  { };
 
-        // QWeakPointer<VideoItem> own { nullptr };
+        VideoItem *own { nullptr };
         GstElement *pipeline { nullptr };
         GstElement *src { nullptr };
         GstElement *videoDecode { nullptr };
@@ -49,8 +49,8 @@ private:
         GstElement  *flip { nullptr };
         GstElement *gload { nullptr };
         GstElement *videoSink { nullptr };
-        GstElement *glSink {nullptr};
 
+        GstPad *renderPad { nullptr };
         GstBus *bus { nullptr };
 
         VideoItem::State state { VideoItem::STATE_VOID_PENDING };
@@ -61,7 +61,7 @@ private:
     static void video_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
     void createPipeline();
 public:
-    QSharedPointer<VideoItemPrivate> m_videoPipe;
+    QScopedPointer<VideoItemPrivate> m_videoPipe;
 };
 
 #endif // VIDEOITEM_H
