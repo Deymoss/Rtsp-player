@@ -20,86 +20,31 @@ private:
 };
 namespace {
 
-GstBusSyncReply messageHandler(GstBus * /*bus*/, GstMessage *msg, gpointer videoItem)
+static gboolean messageHandler(GstBus * /*bus*/, GstMessage *message, gpointer videoItem)
 {
-    VideoItem *priv = static_cast<VideoItem *>(videoItem);
-    switch (GST_MESSAGE_TYPE(msg)) {
-    case GST_MESSAGE_EOS: {
-        qDebug()<<"GST_MESSAGE_EOS"<<GST_MESSAGE_SRC_NAME(msg);
-    }
-    break;
+    g_print ("Got %s message\n", GST_MESSAGE_TYPE_NAME (message));
 
-    case GST_MESSAGE_ERROR: {
-        GError *error { nullptr };
-        QString str { "GStreamer error: " };
-        gst_message_parse_error(msg, &error, nullptr);
-        qDebug()<<"GST_MESSAGE_ERROR"<<GST_MESSAGE_SRC(msg)<<error->code<<error->message;
-        g_error_free(error);
+    switch (GST_MESSAGE_TYPE (message)) {
+    case GST_MESSAGE_ERROR:{
+        GError *err;
+        gchar *debug;
 
-    } break;
+        gst_message_parse_error (message, &err, &debug);
+        g_print ("Error: %s\n", err->message);
+        g_error_free (err);
+        g_free (debug);
 
-    case GST_MESSAGE_HAVE_CONTEXT: {
-        GstContext *context { nullptr };
-
-        gst_message_parse_have_context(msg, &context);
-
-        if (gst_context_has_context_type(context, GST_GL_DISPLAY_CONTEXT_TYPE)) {
-            gst_element_set_context(priv->m_videoPipe->pipeline, context);
-            qDebug()<<"GST_MESSAGE_HAVE_CONTEXT"<<GST_MESSAGE_SRC(msg);
-        }
-        return GST_BUS_DROP;
-    }  break;
-
-    case GST_MESSAGE_STATE_CHANGED: {
-        if (GST_MESSAGE_SRC(msg) == GST_OBJECT(priv->m_videoPipe->pipeline)) {
-            GstState oldState { GST_STATE_NULL }, newState { GST_STATE_NULL };
-            gst_message_parse_state_changed(msg, &oldState, &newState, nullptr);
-            priv->setState(static_cast<VideoItem::State>(newState));
-            if (newState == GST_STATE_NULL){
-                priv->setState(static_cast<VideoItem::State>(newState));
-            }
-            if(newState == GST_STATE_PLAYING) {
-            }
-        } else {
-            GstState oldState { GST_STATE_NULL }, newState { GST_STATE_NULL };
-            gst_message_parse_state_changed(msg, &oldState, &newState, nullptr);
-        }
-    } break;
-
-    case GST_MESSAGE_STREAM_STATUS:
-    {
-        GstStreamStatusType type;
-        GstElement *owner;
-        const GValue *val;
-        gchar *path;
-        gst_message_parse_stream_status (msg, &type, &owner);
-
-        val = gst_message_get_stream_status_object (msg);
-        path = gst_object_get_path_string (GST_MESSAGE_SRC (msg));;
-        g_free (path);
-        path = gst_object_get_path_string (GST_OBJECT (owner));
-        g_free (path);
-        if (G_VALUE_TYPE (val) == GST_TYPE_TASK) {
-            g_value_get_object (val);
-        }
-
-        switch (type) {
-        case GST_STREAM_STATUS_TYPE_CREATE:
-            break;
-        case GST_STREAM_STATUS_TYPE_ENTER:
-            break;
-        case GST_STREAM_STATUS_TYPE_LEAVE:
-            qDebug()<<"GST_STREAM_STATUS_TYPE_LEAVE"<<GST_MESSAGE_SRC(msg);
-            break;
-        default:
-            break;
-        }
+        // g_main_loop_quit (loop);
         break;
     }
+    case GST_MESSAGE_EOS:
+        /* end-of-stream */
+        // g_main_loop_quit (loop);
+        break;
     default:
+        /* unhandled message */
         break;
     }
-    return GST_BUS_PASS;
 }
 
 } // end namespace
@@ -125,13 +70,14 @@ void VideoItem::close()
     g_signal_handlers_disconnect_by_func(GST_ELEMENT(m_videoPipe->src),gpointer(video_pad_added_handler), m_videoPipe->videoDecode);
     g_signal_handlers_disconnect_by_func(GST_ELEMENT(m_videoPipe->videoDecode),gpointer(video_pad_added_handler), m_videoPipe->flip);
     // Remove the bus sync handler
-    gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
+    // gst_bus_set_sync_handler(m_videoPipe->bus, nullptr, nullptr, nullptr);
 
-    gst_element_set_state(GST_ELEMENT(m_videoPipe->pipeline),GST_STATE_NULL);
+    // gst_element_set_state(GST_ELEMENT(m_videoPipe->pipeline),GST_STATE_NULL);
     gst_object_unref(GST_OBJECT(m_videoPipe->pipeline));
-    gst_object_unref(GST_OBJECT(m_videoPipe->bus));
+    // gst_object_unref(GST_OBJECT(m_videoPipe->bus));
+    g_source_remove (m_videoPipe->watchId);
     qDebug()<<"REFS";
-    gst_object_unref(GST_OBJECT(m_videoPipe->glSink));
+    // gst_object_unref(GST_OBJECT(m_videoPipe->glSink));
    // QQuickItem *videoItem = findChild<QQuickItem *>("videoItem");
     //delete videoItem;
 
@@ -230,25 +176,25 @@ void VideoItem::componentComplete()
     setRenderer(window());
     connect(this, &QQuickItem::windowChanged, this, setRenderer);
 }
-static GstPadProbeReturn
-count_fps(GstPad *pad, GstPadProbeInfo *info, gpointer user_data)
-{
-    static int frame_count = 0;
-    static auto start_time = std::chrono::steady_clock::now();
+// static GstPadProbeReturn
+// count_fps(GstPad *pad, GstPadProbeInfo *info, gpointer user_data)
+// {
+//     static int frame_count = 0;
+//     static auto start_time = std::chrono::steady_clock::now();
 
-    frame_count++;
+//     frame_count++;
 
-    auto current_time = std::chrono::steady_clock::now();
-    std::chrono::duration<double> elapsed_seconds = current_time - start_time;
+//     auto current_time = std::chrono::steady_clock::now();
+//     std::chrono::duration<double> elapsed_seconds = current_time - start_time;
 
-    if (elapsed_seconds.count() >= 1.0) {
-        qDebug() << "FPS: " << frame_count / elapsed_seconds.count();
-        frame_count = 0;
-        start_time = current_time;
-    }
+//     if (elapsed_seconds.count() >= 1.0) {
+//         qDebug() << "FPS: " << frame_count / elapsed_seconds.count();
+//         frame_count = 0;
+//         start_time = current_time;
+//     }
 
-    return GST_PAD_PROBE_OK;
-}
+//     return GST_PAD_PROBE_OK;
+// }
 
 void VideoItem::createPipeline()
 {
@@ -258,7 +204,7 @@ void VideoItem::createPipeline()
     m_videoPipe->src = gst_element_factory_make ("rtspsrc", "src");
     g_object_set (G_OBJECT (m_videoPipe->src), "latency", 0, NULL);
     g_object_set (G_OBJECT (m_videoPipe->src), "do-retransmission", FALSE, NULL);
-    //    g_object_set (G_OBJECT (m_videoPipe->src), "protocols", 4, NULL);
+       // g_object_set (G_OBJECT (m_videoPipe->src), "protocols", 4, NULL);
     m_videoPipe->videoDecode = gst_element_factory_make ("decodebin", nullptr);
     m_videoPipe->videoSink = gst_element_factory_make("glimagesink", nullptr);
     m_videoPipe->flip = gst_element_factory_make("videoflip", nullptr);
@@ -267,6 +213,8 @@ void VideoItem::createPipeline()
     g_object_set (G_OBJECT (m_videoPipe->videoSink), "throttle-time", 0, NULL);
     GstElement *fakesink = gst_element_factory_make("fakesink", nullptr);
     m_videoPipe->bus  = gst_pipeline_get_bus(GST_PIPELINE(m_videoPipe->pipeline));
+    m_videoPipe->watchId = gst_bus_add_watch (m_videoPipe->bus, messageHandler, NULL);
+    gst_object_unref (m_videoPipe->bus);
     g_object_set(m_videoPipe->videoSink, "sink", fakesink, nullptr);
     g_object_set (G_OBJECT (m_videoPipe->videoSink), "sync", FALSE, NULL);
     g_object_set (G_OBJECT (m_videoPipe->videoSink), "async", TRUE, NULL);
@@ -278,7 +226,7 @@ void VideoItem::createPipeline()
     g_signal_connect(m_videoPipe->src, "pad-added", G_CALLBACK(video_pad_added_handler), m_videoPipe->videoDecode);
     gst_element_set_state(m_videoPipe->pipeline, GST_STATE_READY);
     GstPad *sink_pad = gst_element_get_static_pad(m_videoPipe->videoSink, "sink");
-    gst_pad_add_probe(sink_pad, GST_PAD_PROBE_TYPE_BUFFER, count_fps, NULL, NULL);
+    // gst_pad_add_probe(sink_pad, GST_PAD_PROBE_TYPE_BUFFER, count_fps, NULL, NULL);
 }
 
 void VideoItem::video_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement)

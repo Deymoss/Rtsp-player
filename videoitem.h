@@ -50,6 +50,7 @@ private:
         GstElement *gload { nullptr };
         GstElement *videoSink { nullptr };
         GstElement *glSink {nullptr};
+        guint watchId {};
 
         GstBus *bus { nullptr };
 
