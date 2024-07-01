@@ -7,8 +7,10 @@ DEFINES += GST_USE_UNSTABLE_API
 QT_CONFIG -= no-pkg-config
 CONFIG += link_pkgconfig
 PKGCONFIG = \
-gstreamer-full-1.0 \
-glib-2.0
+    gstreamer-1.0 \
+    gstreamer-video-1.0 \
+    gstreamer-gl-1.0
+PKGCONFIG +=  gstreamer-base-1.0 glib-2.0 gobject-2.0 gstreamer-app-1.0 gstreamer-sdp-1.0
 
 INCLUDEPATH += $$PWD/include \
     /usr/local/include \

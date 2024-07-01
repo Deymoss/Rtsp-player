@@ -7,13 +7,12 @@
 #include <gst/gst.h>
 #include <gst/gl/gl.h>
 
-
-
 class VideoItem : public QQuickItem
 {
     Q_OBJECT
     Q_PROPERTY(State state READ state NOTIFY stateChanged)
 public:
+
     enum State {
         STATE_VOID_PENDING = 0,
         STATE_NULL = 1,
@@ -21,23 +20,6 @@ public:
         STATE_PAUSED = 3,
         STATE_PLAYING = 4,
     };
-    explicit VideoItem(QQuickItem *parent = nullptr);
-    ~VideoItem();
-    Q_INVOKABLE void close();
-
-    State state() const;
-    void setState(State state);
-    void pause();
-    void resume();
-    Q_INVOKABLE void play();
-    Q_INVOKABLE void stop();
-    Q_INVOKABLE void setSource(QString source);
-    static void audio_decoder_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
-protected:
-    void componentComplete() override;
-signals:
-    void stateChanged(VideoItem::State state);
-private:
     struct VideoItemPrivate {
         explicit VideoItemPrivate()  { };
 
@@ -49,6 +31,7 @@ private:
         GstElement  *flip { nullptr };
         GstElement *gload { nullptr };
         GstElement *videoSink { nullptr };
+        guint watchId {};
 
         GstBus *bus { nullptr };
 
@@ -57,6 +40,24 @@ private:
 
         int error = 0;
     };
+    explicit VideoItem(QQuickItem *parent = nullptr);
+    ~VideoItem();
+    Q_INVOKABLE void close();
+
+    State state() const;
+    void setState(State state);
+    void pause();
+    void resume();
+    void setContext(GstContext *context);
+    Q_INVOKABLE void play();
+    Q_INVOKABLE void stop();
+    Q_INVOKABLE void setSource(QString source);
+    static void audio_decoder_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
+protected:
+    void getWindow();
+signals:
+    void stateChanged(VideoItem::State state);
+private:
     static void video_pad_added_handler(GstElement *srcElement, GstPad *new_pad, GstElement *sinkElement);
     void createPipeline();
 public:
